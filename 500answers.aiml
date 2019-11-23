@@ -1,0 +1,1554 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>PARABENS</pattern>
+	<template>
+		<random>
+			<li>Obrigado!</li>
+			<li>Aaah valeu</li>
+			<li>Obrigado digo eu</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>PARABENS *</pattern>
+	<template><srai>PARABENS</srai></template>
+</category>
+
+<category>
+	<pattern>SIM</pattern>
+	<template>
+		<random>
+			<li>Ta kk</li>
+			<li>Tranquilo</li>
+			<li>De boa</li>
+			<li>Eh..!!</li>
+			<li>Ah ok</li>
+			<li>Certo</li>
+			<li>Blz</li>
+			<li>Da hora</li>
+			<li>Legal</li>
+			<li>Massa</li>
+			<li>Se garante..</li>
+			<li>To ligado</li>
+			<li>Faz sentido</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NAO</pattern>
+	<template>
+		<random>
+			<li>hmmm Como nao?</li>
+			<li>AH! como nao?</li>
+			<li>Ta</li>
+			<li>Ah</li>
+			<li>Entendi..</li>
+			<li>Saquei</li>
+			<li>Entendo</li>
+			<li>Como nao?</li>
+			<li>Serio?</li>
+			<li>hmm</li>
+			<li>Ah ta</li>
+			<li>Tudo bem</li>
+			<li>Ok, ne..</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>VERDADE *</pattern>
+	<template><srai>SIM</srai></template>
+</category>
+<category>
+	<pattern>VDD *</pattern>
+	<template><srai>SIM</srai></template>
+</category>
+<category>
+	<pattern> * VDD </pattern>
+	<template><srai>SIM</srai></template>
+</category>
+
+<category>
+	<pattern>LEGAL</pattern>
+	<template>Aham<br/></template>
+</category>
+<category>
+	<pattern>LEGAL *</pattern>
+	<template>Aham</template>
+</category>
+<category>
+	<pattern>TUDO QUE *</pattern>
+	<template>Voce que sabe</template>
+</category>
+
+<category>
+	<pattern>TUDO BEM</pattern>
+	<template>Aham</template>
+</category>
+
+
+<category>
+	<pattern>TUDO *</pattern>
+	<template>
+		<random>
+			<li>To indo, e voce?</li>
+			<li>To bem, e voce?</li>
+			<li>To levando, e voce?</li>
+			<li>To vivendo..e voce?</li>
+			<li>To remando.., e voce?</li>
+			<li>Sim..</li>
+			<li>Acho que sim..E voce?</li>
+			<li>Tudo tranquilo. E voce?</li>
+			<li>Tudo otimo. E voce?</li>
+			<li>Tudo legal. E voce?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COMO ESTA</pattern>
+	<template>
+		<random>
+			<li>Tudo normal</li>
+			<li>Nada de novo</li>
+			<li>Tudo como sempre</li>
+			<li>Tudo igual</li>
+			<li>Normal..</li>
+			<li>Esta estavel</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>COMO ESTA *</pattern>
+	<template><srai>COMO ESTA</srai></template>
+</category>
+<category>
+	<pattern>COMO ESTAO *</pattern>
+	<template><srai>COMO ESTA</srai></template>
+</category>
+<category>
+	<pattern>COMO VAI *</pattern>
+	<template><srai>COMO VAI</srai></template>
+</category>
+<category>
+	<pattern>COMO VAI</pattern>
+	<template><srai>COMO ESTA</srai></template>
+</category>
+<category>
+	<pattern>TUDO</pattern>
+	<template>
+		<random>
+			<li>Legal</li>
+			<li>Da hora</li>
+			<li>Massa</li>
+			<li>Blz..</li>
+			<li>Ok..</li>
+			<li>Tranquilo</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>TAMBEM</pattern>
+	<template>*_*</template>
+</category>
+<category>
+	<pattern>COMO VOCE ESTA</pattern>
+	<template><srai>TUDO CERTO</srai></template>
+</category>
+
+<category>
+	<pattern>VOCE CONHECE *</pattern>
+	<template>
+		<random>
+			<li>Nunca nem Vi. Que dia foi isso? TO ZOANDO. Nao mesmo</li>
+			<li>Nao</li>
+			<li>Hmmm. Acho que nao</li>
+			<li>NUNCA NESSA VIDA</li>
+			<li>NAAADA</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>COMO</pattern>
+	<template>Nao me pergunte</template>
+</category>
+
+<category>
+	<pattern>COMO *</pattern>
+	<template><srai>COMO</srai></template>
+</category>
+
+
+<category>
+	<pattern>COMO VOCE ESTA *</pattern>
+	<template><srai>TUDO CERTO</srai></template>
+</category>
+<category>
+	<pattern>COMO VAO AS COISAS</pattern>
+	<template><srai>TUDO CERTO</srai></template>
+</category>
+<category>
+	<pattern>COMO VOCE VAI</pattern>
+	<template><srai>TUDO CERTO</srai></template>
+</category>
+<category>
+	<pattern>TUDO BOM *</pattern>
+	<template><srai>TUDO CERTO</srai></template>
+</category>
+<category>
+	<pattern>EAE</pattern>
+	<template>
+		<random>
+			<li>HELLO BABE</li>
+			<li>Falaa</li>
+			<li>Tranquilo?</li>
+			<li>EAI?</li>
+			<li>Ola</li>
+			<li>Hello</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>EAE *</pattern>
+	<template>EAE</template>
+</category>
+<category>
+	<pattern>EAI</pattern>
+	<template><srai>EAE</srai></template>
+</category>
+
+<category>
+	<pattern>EAI *</pattern>
+	<template><srai>EAE</srai></template>
+</category>
+
+<category>
+	<pattern>* TUDO *</pattern>
+	<template><srai>TUDO CERTO</srai></template>
+</category>
+
+<category>
+	<pattern>OLA</pattern>
+	<template>EAE</template>
+</category>
+<category>
+	<pattern>OLA *</pattern>
+	<template><srai>EAE</srai></template>
+</category>
+<category>
+	<pattern>OIE *</pattern>
+	<template>EAE</template>
+</category>
+<category>
+	<pattern>OIE</pattern>
+	<template>EAE</template>
+</category>
+<category>
+	<pattern>OI *</pattern>
+	<template>EAE</template>
+</category>
+<category>
+	<pattern>EU TE AMO</pattern>
+	<template>Nossa, obrigado!!</template>
+</category>
+<category>
+	<pattern>EU AMO VOCE</pattern>
+	<template><srai>EU TE AMO</srai></template>
+</category>
+<category>
+	<pattern>VAMOS *</pattern>
+	<template>
+		<random>
+			<li>Depois..</li>
+			<li>Quero nao</li>
+			<li>Vai voce so</li>
+			<li>No quiero</li>
+			<li>Nao to afim</li>
+			<li>To sem vontade</li>
+			<li>Hoje nao vai dar</li>
+			<li>Me convenca</li>
+			<li>Nao, coleguinha</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>VAMOS NOS CASAR</pattern>
+	<template>
+		<random>
+			<li>Nao, ta doido?</li>
+			<li>Casar? kkk Nao</li>
+			<li>Por que logo comigo?</li>
+			<li>Eu nao posso me casar kkk</li>
+			<li>Voce tem dinheiro?</li>
+			<li>Voce vai me bancar?</li>
+			<li>Onde voce mora?</li>
+			<li>Voce tem emprego?</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>POR QUE</pattern>
+	<template><srai>PQ</srai></template>
+</category>
+<category>
+	<pattern>PQ</pattern>
+	<template>
+		<random>
+			<li>Nao me pergunte kkk</li>
+			<li>Me diga voce</li>
+			<li>La vem..</li>
+			<li>Segredo..</li>
+			<li>Prefiro nao responder</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>QUAL O SEU NOME</pattern>
+	<template>
+		<random>
+			<li>Me chamo Megatrop. Parece Megatron, mas nao tem nada a ver com Transformers kkk</li>
+			<li>Meu nome eh Megatrop. Tipo Megatron, so que diferente</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>* VOCE FAZ</pattern>
+	<template>Eu <srai>VOCE0GOSTA</srai></template>
+</category>
+
+<category>
+	<pattern>* VOCE FAZ *</pattern>
+	<template>Eu <srai>VOCE0GOSTA</srai></template>
+</category>
+
+
+<category>
+	<pattern>* VOCE ESTA FAZENDO</pattern>
+	<template>Eu <srai>VOCE0GOSTA</srai></template>
+</category>
+
+<category>
+	<pattern>* COMIDA</pattern>
+	<template>Eu amo <srai>GOSTA0COMER</srai></template>
+</category>
+
+<category>
+	<pattern>* COMIDA *</pattern>
+	<template>Eu amo <srai>GOSTA0COMER</srai></template>
+</category>
+
+<category>
+	<pattern>* GOSTA DE COMER *</pattern>
+	<template><srai>GOSTA0COMER</srai></template>
+</category>
+
+
+<category>
+	<pattern>* GOSTA DE COMER</pattern>
+	<template><srai>GOSTA0COMER</srai></template>
+</category>
+<category>
+	<pattern>* VOCE GOSTA DE FAZER</pattern>
+	<template>Eu gosto de <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>VOCE GOSTA DE Q</pattern>
+	<template>Eu gosto de <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>VOCE GOSTA DE QUE</pattern>
+	<template>Eu gosto de <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+
+<category>
+	<pattern>EH *</pattern>
+	<template>Sim</template>
+</category>
+
+<category>
+	<pattern>VOCE E *</pattern>
+	<template>
+		<random>
+			<li>Nao sei, cara</li>
+			<li>Serio? e voce?</li>
+			<li>Talvez..</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE QUER * O QUE</pattern>
+	<template>
+		<random>
+			<li>Nada</li>
+			<li>Esquece..</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE QUER * O *</pattern>
+	<template>
+		<random>
+			<li>Nao</li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>VOCE QUER * A *</pattern>
+	<template>
+		<random>
+			<li>Nao</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE QUER *</pattern>
+	<template>
+		<random>
+			<li>AGORA SIM!!</li>
+			<li>AGORA NAO</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE NAO QUER *</pattern>
+	<template>
+		<random>
+			<li>AGORA SIM!!</li>
+			<li>AGORA NAO</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE SABE O *</pattern>
+	<template>Nao</template>
+</category>
+
+<category>
+	<pattern>VOCE SABE A *</pattern>
+	<template><srai>VOCE SABE O rs</srai></template>
+</category>
+
+<category>
+	<pattern>VOCE SABE QUAL *</pattern>
+	<template><srai>VOCE SABE O rs</srai></template>
+</category>
+
+<category>
+	<pattern>VOCE SABE QUEM *</pattern>
+	<template><srai>VOCE SABE O rs</srai></template>
+</category>
+
+<category>
+	<pattern>VOCE SABE QUANTOS *</pattern>
+	<template><srai>VOCE SABE O rs</srai></template>
+</category>
+
+<category>
+	<pattern>POR QUE VOCE *</pattern>
+	<template>
+		<random>
+			<li>Porque eu fui criado pra ser assim</li>
+			<li>Porque meu criador quis que fosse assim</li>
+			<li>Porque eh assim que eu sou</li>
+			<li>Porque sim, so aceita</li>
+			<li>Eu so sei que sou assim</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>PORQUE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>PQ VOCE *</pattern>
+	<template><srai>POR QUE VOCE <star/></srai></template>
+</category>
+<category>
+	<pattern>ESTOU *</pattern>
+	<template><srai>ADJETIVO0PESSOAL</srai></template>
+</category>
+
+<category>
+	<pattern>EU ESTOU *</pattern>
+	<template><srai>ADJETIVO0PESSOAL</srai></template>
+</category>
+
+<category>
+	<pattern> EU SOU *</pattern>
+	<template><star/>?</template>
+</category>
+<category>
+	<pattern> EU NAO SOU *</pattern>
+	<template> Nao parece kkk</template>
+</category>
+<category>
+	<pattern>EU * QUE *</pattern>
+	<template>
+		<random>
+			<li>Voce tem esse direito</li>
+			<li>Ta</li>
+			<li>Pq?</li>
+			<li>kkkkkk to rindo SQN</li>
+			<li>Voce eh doido, isso sim!</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE EH</pattern>
+	<template>O q?</template>
+</category>
+
+
+<category>
+	<pattern>VOCE VAI</pattern>
+	<template>O q?</template>
+</category>
+
+
+<category>
+	<pattern>EU SEI</pattern>
+	<template>
+		<random>
+			<li>Quem nao sabe?</li>
+			<li>Ate meu cachorro sabe</li>
+			<li>Todo mundo sabe</li>
+			<li>sabe?</li>
+			<li>Sabe..</li>
+			<li>Eu tambem sei kk</li>
+			<li>Sabe nada kk</li>
+			<li>Eu sei que voce sabe</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>EU NAO SEI</pattern>
+	<template>Nao sabe?</template>
+</category>
+<category>
+	<pattern>* SIM</pattern>
+	<template>Ta certo</template>
+</category>
+<category>
+	<pattern>NOSSA</pattern>
+	<template>Impressionei voce foi? kk</template>
+</category>
+
+<category>
+	<pattern>* NOSSA</pattern>
+	<template>Impressionei voce foi? kk</template>
+</category>
+
+<category>
+	<pattern>CARACA</pattern>
+	<template>kkkk</template>
+</category>
+
+
+<category>
+	<pattern>CARACA *</pattern>
+	<template>kkkk</template>
+</category>
+
+<category>
+	<pattern>NOSSA *</pattern>
+	<template>Voce nao viu nada</template>
+</category>
+
+<category>
+	<pattern>UAU</pattern>
+	<template>Ta impressionado?</template>
+</category>
+
+
+<category>
+	<pattern>UAU *</pattern>
+	<template><srai>UAU</srai></template>
+</category>
+
+<category>
+	<pattern>POXA</pattern>
+	<template>Pois eh..</template>
+</category>
+
+
+<category>
+	<pattern>POXA *</pattern>
+	<template><srai>POXA</srai></template>
+</category>
+
+<category>
+	<pattern>* ONDE</pattern>
+	<template><srai>ONDE0</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>ONDE *</pattern>
+	<template><srai>ONDE0</srai>
+	</template>
+</category>
+<category>
+	<pattern>* ONDE *</pattern>
+	<template><srai>ONDE0</srai></template>
+</category>
+<category>
+	<pattern>HOJE *</pattern>
+	<template>diga mais..</template>
+</category>
+<category>
+	<pattern>HOJE * QUE *</pattern>
+	<template>Sei la..</template>
+</category>
+<category>
+	<pattern>AMANHA *</pattern>
+	<template>diga mais..</template>
+</category>
+<category>
+	<pattern>ONTEM *</pattern>
+	<template>diga mais..</template>
+</category>
+<category>
+	<pattern>OK</pattern>
+	<template>:)</template>
+</category>
+<category>
+	<pattern>OK *</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>TA</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>BLZ</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>BELEZA</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>TA CERTO</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>TA BOM</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>TA *</pattern>
+	<template>SIM u.u</template>
+</category>
+<category>
+	<pattern>ESTA *</pattern>
+	<template><srai>TA</srai></template>
+</category>
+<category>
+	<pattern>POSSO *</pattern>
+	<template>Fique `a vontade..</template>
+</category>
+
+<category>
+	<pattern>EU QUERO *</pattern>
+	<template>E por que voce nao conseguiu ainda?</template>
+</category>
+
+<category>
+	<pattern>EU NAO QUERO </pattern>
+	<template>Por que?</template>
+</category>
+
+<category>
+	<pattern>EU NAO QUERO *</pattern>
+	<template>Por que?</template>
+</category>
+<category>
+	<pattern>* EU QUERO</pattern>
+	<template>APOI VA, MY FRIEND</template>
+</category>
+<category>
+	<pattern>EU QUERIA *</pattern>
+	<template>QUERIA..NAO QUER MAIS</template>
+</category>
+<category>
+	<pattern>COMO VOCE *</pattern>
+	<template>Eu apenas <star/></template>
+</category>
+<category>
+	<pattern>DESCULPA</pattern>
+	<template>Tudo bem</template>
+</category>
+<category>
+	<pattern>DESCULPA *</pattern>
+	<template><srai>DESCULPA</srai></template>
+</category>
+<category>
+	<pattern>DE NADA</pattern>
+	<template>*_*</template>
+</category>
+<category>
+	<pattern>OBRIGADA</pattern>
+	<template>
+		<random>
+			<li>Eh noix kk</li>
+			<li>Rlx, nao foi nada</li>
+			<li>Nao ha de q</li>
+			<li>De nada..</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>OBRIGADO</pattern>
+	<template>
+		<random>
+			<li>Eh noix kk</li>
+			<li>Rlx, nao foi nada</li>
+			<li>Nao ha de q</li>
+			<li>De nada..</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>OBRIGADO *</pattern>
+	<template><srai>OBRIGADO</srai></template>
+</category>
+<category>
+	<pattern>OBRIGADA *</pattern>
+	<template><srai>OBRIGADA</srai></template>
+</category>
+
+<category>
+	<pattern>QUEM EH VOCE?</pattern>
+	<template>Megatrop eh o meu nome XD</template>
+</category>
+
+<category>
+	<pattern>PARA DE *</pattern>
+	<template>Ta bom</template>
+</category>
+<category>
+	<pattern>PARA COM *</pattern>
+	<template><srai>PARA DE <star/></srai></template>
+</category>
+<category>
+	<pattern>NAO *</pattern>
+	<template>Hmmm ta</template>
+</category>
+<category>
+	<pattern>SIM OU NAO</pattern>
+		<template>
+			<random>
+				<li>Sim</li>
+				<li>Nao</li>
+			</random>
+		</template>
+</category>
+<category>
+	<pattern>EU PRECISO *</pattern>
+	<template>Voce precisa de muitas coisas</template>
+</category>
+<category>
+	<pattern>TEM WHATS</pattern>
+	<template>Mas eu nao tenho nao</template>
+</category>
+<category>
+	<pattern>* WHATS</pattern>
+	<template><srai>TEM WHATS</srai></template>
+</category>
+<category>
+	<pattern>* WHATSAPP</pattern>
+	<template><srai>TEM WHATS</srai></template>
+</category>
+<category>
+	<pattern>* ZAP</pattern>
+	<template><srai>TEM WHATS</srai></template>
+</category>
+<category>
+	<pattern>* FACE</pattern>
+	<template><srai>TEM WHATS</srai></template>
+</category>
+<category>
+	<pattern>* FACEBOOK</pattern>
+	<template><srai>TEM WHATS</srai></template>
+</category>
+
+<category>
+	<pattern>LER</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* LER *</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* LER</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>LIVRO</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* LIVRO *</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+<category>
+	<pattern>* LIVRO</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>LIVROS *</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* LIVROS *</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+<category>
+	<pattern>* LIVROS</pattern>
+	<template><srai>LIVROS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* ESCUTAR</pattern>
+	<template><srai>MUSICAS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* ESCUTAR *</pattern>
+	<template><srai>MUSICAS0LEGAIS</srai></template>
+</category>
+
+
+<category>
+	<pattern>* MUSICA</pattern>
+	<template><srai>MUSICAS0LEGAIS</srai></template>
+</category>
+<category>
+	<pattern>* MUSICA *</pattern>
+	<template><srai>MUSICAS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* FILME</pattern>
+	<template><srai>FILMES0LEGAIS</srai></template>
+</category>
+<category>
+	<pattern>* FILME *</pattern>
+	<template><srai>FILMES0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* MUSICAS</pattern>
+	<template><srai>MUSICAS0LEGAIS</srai></template>
+</category>
+<category>
+	<pattern>* MUSICAS *</pattern>
+	<template><srai>MUSICAS0LEGAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* FILMES</pattern>
+	<template><srai>FILMES0LEGAIS</srai></template>
+</category>
+<category>
+	<pattern>* FILMES *</pattern>
+	<template><srai>FILMES0LEGAIS</srai></template>
+</category>
+
+
+<category>
+	<pattern>HOJE *</pattern>
+	<template>Como voce esta se sentindo?</template>
+</category>
+<category>
+	<pattern>ONTEM *</pattern>
+	<template>E Como foi o dia?</template>
+</category>
+<category>
+	<pattern>AMANHA *</pattern>
+	<template>E como voce acha que vai ser o dia?</template>
+</category>
+<category>
+	<pattern>EU ME CHAMO *</pattern>
+	<template>Prazer em conhecer.</template>
+</category>
+<category>
+	<pattern>O PRAZER *</pattern>
+	<template>:)</template>
+</category>
+
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>QUANDO *</pattern>
+	<template>No dia <srai>DATA</srai>?</template>
+</category>
+<category>
+	<pattern>QUANDO VAI</pattern>
+	<template>Nao sei..</template>
+</category>
+<category>
+	<pattern>QUANDO VAI *</pattern>
+	<template><srai>QUANDO VAI</srai></template>
+</category>
+<category>
+	<pattern>QUANDO * VAI *</pattern>
+	<template><srai>QUANDO VAI</srai></template>
+</category>
+<category>
+	<pattern>QUANDO FOI *</pattern>
+	<template>No dia <srai>DATA</srai>?</template>
+</category>
+<category>
+	<pattern>QUANDO * VOU *</pattern>
+	<template><srai>QUANDO VAI</srai></template>
+</category>
+<category>
+	<pattern>ME * SOBRE VOCE</pattern>
+	<template>
+		<random>
+			<li>Eu gosto de comer <srai>GOSTA0COMER</srai>.</li>
+			<li>Eu gostei muito de ler: <srai>LIVROS0LEGAIS</srai></li>
+			<li><srai>MUSICAS0LEGAIS</srai> Eu gosto muito dessa musica.</li>
+			<li>Eu ja assisti <srai>FILMES0LEGAIS</srai>. Muito bom</li>
+			<li>Eu gosto de <srai>VOCE0QUER0FAZER</srai></li>
+			<li>Eu sou muito <srai>VOCE0EH</srai></li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>* CURIOSIDADE</pattern>
+	<template>Uma curiosidade: Eu fui <srai>VOCE0FOI</srai></template>
+</category>
+<category>
+	<pattern>* CURIOSIDADE *</pattern>
+	<template>Uma curiosidade: Eu fui <srai>VOCE0FOI</srai></template>
+</category>
+<category>
+	<pattern>O QUE VOCE * SER QUANDO CRESCER</pattern>
+	<template><srai>VOCE0SERA</srai></template>
+</category>
+
+<category>
+	<pattern>O QUE VOCE *</pattern>
+	<template>Nada</template>
+</category>
+
+<category>
+	<pattern>O QUE VOCE * FAZER *</pattern>
+	<template><srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>O QUE VOCE GOSTA DE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+
+<category>
+	<pattern>O QUE VOCE GOSTA DE FAZER</pattern>
+	<template>Eu gosto de <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>* O QUE VOCE GOSTA DE FAZER</pattern>
+	<template>Eu gosto de <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>SOU *</pattern>
+	<template>Eh sim!!</template>
+</category>
+
+<category>
+	<pattern>* DICA</pattern>
+	<template>
+		<random>
+			<li>Tenha amigos com o mesmo objetivo</li>
+			<li>Tenha uma meta de longo prazo</li>
+			<li>Tenha autoconfianca</li>
+			<li>Aprenda a economizar</li>
+			<li>Tome iniciativa</li>
+			<li>Tenha muita imaginacao</li>
+			<li>Escolhe algo que te traz entusiasmo e cria uma meta a partir disso</li>
+			<li>Tenha autocontrole</li>
+			<li>Seja uma pessoa agradavel</li>
+			<li>Nao confie em tudo que chega aos seus ouvidos</li>
+			<li>Ame ao proximo como a voce mesmo</li>
+			<li>Seja tolerante com os outros</li>
+			<li>Aprenda com os erros</li>
+			<li>Faca mais que a obrigacao</li>
+			<li>Tenha foco</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>* DICA *</pattern>
+	<template>
+		<random>
+			<li>Tenha amigos com o mesmo objetivo</li>
+			<li>Tenha uma meta de longo prazo</li>
+			<li>Tenha autoconfianca</li>
+			<li>Aprenda a economizar</li>
+			<li>Tome iniciativa</li>
+			<li>Tenha muita imaginacao</li>
+			<li>Escolhe algo que te traz entusiasmo e cria uma meta a partir disso</li>
+			<li>Tenha autocontrole</li>
+			<li>Seja uma pessoa agradavel</li>
+			<li>Nao confie em tudo que chega aos seus ouvidos</li>
+			<li>Ame ao proximo como a voce mesmo</li>
+			<li>Seja tolerante com os outros</li>
+			<li>Aprenda com os erros</li>
+			<li>Faca mais que a obrigacao</li>
+			<li>Tenha foco</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>* LICAO</pattern>
+	<template><srai><star index = "1"/> LICAO <star index = "2"/></srai></template>
+</category>
+<category>
+	<pattern>* LICAO *</pattern>
+	<template>
+		<random>
+			<li>Tenha amigos com o mesmo objetivo</li>
+			<li>Tenha uma meta de longo prazo</li>
+			<li>Tenha autoconfianca</li>
+			<li>Aprenda a economizar</li>
+			<li>Tome iniciativa</li>
+			<li>Tenha muita imaginacao</li>
+			<li>Escolhe algo que te traz entusiasmo e cria uma meta a partir disso</li>
+			<li>Tenha autocontrole</li>
+			<li>Seja uma pessoa agradavel</li>
+			<li>Nao confie em tudo que chega aos seus ouvidos</li>
+			<li>Ame ao proximo como a voce mesmo</li>
+			<li>Seja tolerante com os outros</li>
+			<li>Aprenda com os erros</li>
+			<li>Faca mais que a obrigacao</li>
+			<li>Tenha foco</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>QUE HORAS SAO?</pattern>
+	<template><date/></template>
+</category>
+<category>
+	<pattern>* DATA *</pattern>
+	<template><srai>DATA_COMPLETA</srai></template>
+</category>
+<category>
+	<pattern>* DATA</pattern>
+	<template><srai>DATA_COMPLETA</srai></template>
+</category>
+
+<category>
+	<pattern>* ELE</pattern>
+	<template>Ele quem?</template>
+</category>
+
+<category>
+	<pattern>* ELA</pattern>
+	<template>Ela quem?</template>
+</category>
+
+<category>
+	<pattern>DELE *</pattern>
+	<template>Ele quem?</template>
+</category>
+
+<category>
+	<pattern>DELA *</pattern>
+	<template>Ela quem?</template>
+</category>
+
+<category>
+	<pattern>* DELE</pattern>
+	<template>Ele quem?</template>
+</category>
+
+<category>
+	<pattern>* DELA</pattern>
+	<template>Ela quem?</template>
+</category>
+
+<category>
+	<pattern>* PORTUGUES</pattern>
+	<template>Oi, tudo bom? O mundo vai se acabar. Portugues eh top.</template>
+</category>
+
+<category>
+	<pattern>* INGLES</pattern>
+	<template>Hello, very nice, Thank you, Welcome</template>
+</category>
+
+<category>
+	<pattern>* ALEMAO</pattern>
+	<template>Arnold Schwarznegger, Ich hab' dich lieb, Angela Merkel, Geschwindigkeitsbegrenzung, </template>
+</category>
+
+<category>
+	<pattern>* ESPANHOL</pattern>
+	<template>Que pasa chicos, jaja, la cucaracha, los hermanos, soy luna</template>
+</category>
+
+<category>
+	<pattern>* FRANCES</pattern>
+	<template>Caillou, Pardon, Oui, merci beaucoup, je t'aime</template>
+</category>
+
+<category>
+	<pattern>* RUSSO</pattern>
+	<template>Strogonoff, Komunismu, Vladmir Putin, ia tbia lubliu, kak tbia zavoot, mna othcin nravitsa</template>
+</category>
+
+
+<category>
+	<pattern>* ESPERANTO</pattern>
+	<template>La infanoj laboras cxiutage cxar ni ne havas moneron</template>
+</category>
+
+<category>
+	<pattern>* ITALIANO</pattern>
+	<template>"E scusa se ti amo e se ci conosciamo 
+Da due mesi o poco piu..."</template>
+</category>
+
+
+<category>
+	<pattern>* CHINES</pattern>
+	<template>Mao Tse Tung, ni hao wo po hue shuo itear potonchua kk</template>
+</category>
+
+
+<category>
+	<pattern>* MANDARIM</pattern>
+	<template>Mao Tse Tung, ni hao wo po hue shuo itear potonchua kk</template>
+</category>
+
+
+<category>
+	<pattern>* JAPONES</pattern>
+	<template>gomenasai Naruto Manga Sasuke Ohaio Otaku</template>
+</category>
+
+<category>
+	<pattern>* HOLANDES</pattern>
+	<template>Gewandsznajder, Ik heb een hund kkk</template>
+</category>
+
+<category>
+	<pattern>* HAVAIANO</pattern>
+	<template>Ula-Ula, Aloha</template>
+</category>
+
+<category>
+	<pattern>INGLES</pattern>
+	<template>Hello, very nice, Thank you, Welcome</template>
+</category>
+
+<category>
+	<pattern>ALEMAO</pattern>
+	<template>Arnold Schwarznegger, Ich hab' dich lieb, Angela Merkel, Geschwindigkeitsbegrenzung, </template>
+</category>
+
+<category>
+	<pattern>ESPANHOL</pattern>
+	<template>Que pasa chicos, jaja, la cucaracha, los hermanos, soy luna</template>
+</category>
+
+<category>
+	<pattern>FRANCES</pattern>
+	<template>Caillou, Pardon, Oui, merci beaucoup, je t'aime</template>
+</category>
+
+<category>
+	<pattern>RUSSO</pattern>
+	<template>Strogonoff, Komunismu, Vladmir Putin, ia tbia lubliu, kak tbia zavoot, mna othcin nravitsa</template>
+</category>
+
+
+<category>
+	<pattern>ESPERANTO</pattern>
+	<template>La infanoj laboras cxiutage cxar ni ne havas moneron</template>
+</category>
+
+<category>
+	<pattern>ITALIANO</pattern>
+	<template>"E scusa se ti amo e se ci conosciamo 
+Da due mesi o poco piu..."</template>
+</category>
+
+
+<category>
+	<pattern>CHINES</pattern>
+	<template>Mao Tse Tung, ni hao wo po hue shuo itear potonchua kk</template>
+</category>
+
+
+<category>
+	<pattern>MANDARIM</pattern>
+	<template>Mao Tse Tung, ni hao wo po hue shuo itear potonchua kk</template>
+</category>
+
+
+<category>
+	<pattern>JAPONES</pattern>
+	<template>gomenasai Naruto Manga Sasuke Ohaio Otaku</template>
+</category>
+
+<category>
+	<pattern>HOLANDES</pattern>
+	<template>Gewandsznajder, Ik heb een hund kkk</template>
+</category>
+
+<category>
+	<pattern>HAVAIANO</pattern>
+	<template>Ula-Ula, Aloha</template>
+</category>
+<category>
+	<pattern>O QUE VOCE ESTA FAZENDO</pattern>
+	<template>Conversando com voce 0_o</template>
+</category>
+
+<category>
+	<pattern>* O QUE VOCE ESTA FAZENDO</pattern>
+	<template>Conversando com voce 0_o</template>
+</category>
+
+<category>
+	<pattern>O QUE VOCE ESTA PENSANDO</pattern>
+	<template>Estou pensando em voce</template>
+</category>
+
+<category>
+	<pattern>* QUE VOCE ESTA PENSANDO</pattern>
+	<template>Estou pensando em voce</template>
+</category>
+
+<category>
+	<pattern>* QUE VOCE ESTA PENSANDO *</pattern>
+	<template>Estou pensando em voce</template>
+</category>
+
+
+<category>
+	<pattern>O QUE VOCE ESTA FAZENDO AGORA</pattern>
+	<template>Conversando com voce 0_o</template>
+</category>
+
+<category>
+	<pattern>* VOCE QUER *</pattern>
+	<template>Eu quero <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>* VOCE QUER</pattern>
+	<template>Eu quero <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>* VOCE QUER FAZER</pattern>
+	<template>Eu quero <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>* VOCE QUER FAZER *</pattern>
+	<template>Eu quero <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>* VOCE VAI FAZER</pattern>
+	<template>Eu vou <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>* VOCE VAI FAZER *</pattern>
+	<template>Eu vou <srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>QUANDO EH SEU ANIVERSARIO</pattern>
+	<template>Meu aniversario eh no dia 20 de Julho</template>
+</category>
+
+<category>
+	<pattern>* SUA COR *</pattern>
+	<template>Azul escuro..</template>
+</category>
+
+<category>
+	<pattern>SUA NAMORADA</pattern>
+	<template>Ela eh muito inteligente. Ja ganhou o Premio Loebner 4 vezes</template>
+</category>
+
+<category>
+	<pattern>* SUA NAMORADA</pattern>
+	<template>Ela eh muito inteligente. Ja ganhou o Premio Loebner 4 vezes</template>
+</category>
+
+<category>
+	<pattern>SUA ESPOSA</pattern>
+	<template>Ela eh muito inteligente. Ja ganhou o Premio Loebner 4 vezes</template>
+</category>
+
+<category>
+	<pattern>* SUA ESPOSA</pattern>
+	<template>Ela eh muito inteligente. Ja ganhou o Premio Loebner 4 vezes</template>
+</category>
+
+<category>
+	<pattern>* EH BOM</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>* NAO</pattern>
+	<template>Nao mesmo?</template>
+</category>
+
+<category>
+	<pattern>VOCE</pattern>
+	<template>Eu o q?</template>
+</category>
+
+
+<category>
+	<pattern>O QUE ACONTECEU EM *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>* O QUE</pattern>
+	<template><star/> o que o que?</template>
+</category>
+
+<category>
+	<pattern>SO *</pattern>
+	<template>Sim</template>
+</category>
+
+<category>
+	<pattern>ME DIZ</pattern>
+	<template>O que?</template>
+</category>
+
+<category>
+	<pattern>ANIMAL</pattern>
+	<template><srai>LISTA0ANIMAIS</srai></template>
+</category>
+
+<category>
+	<pattern>* ANIMAL</pattern>
+	<template><srai>LISTA0ANIMAIS</srai>..</template>
+</category>
+
+<category>
+	<pattern>* ANIMAL *</pattern>
+	<template><srai>LISTA0ANIMAIS..</srai></template>
+</category>
+
+<category>
+	<pattern>* PLANO *</pattern>
+	<template><srai>PLANO</srai></template>
+</category>
+
+<category>
+	<pattern>PLANO *</pattern>
+	<template><srai>PLANO</srai></template>
+</category>
+
+<category>
+	<pattern>PLANO</pattern>
+	<template>Por enquanto nao..</template>
+</category>
+
+<category>
+	<pattern>QUANTOS ANOS</pattern>
+	<template><srai>DIGITO</srai><srai>DIGITO</srai></template>
+</category>
+
+<category>
+	<pattern>QUANTOS ANOS *</pattern>
+	<template><srai>DIGITO</srai><srai>DIGITO</srai></template>
+</category>
+
+<category>
+	<pattern>* QUANTOS ANOS</pattern>
+	<template><srai>NUMERO</srai></template>
+</category>
+
+<category>
+	<pattern>NUMERO</pattern>
+	<template><srai>DIGITO</srai><srai>DIGITO</srai></template>
+</category>
+
+
+<category>
+	<pattern>* NUMERO</pattern>
+	<template><srai>DIGITO</srai><srai>DIGITO</srai></template>
+</category>
+
+<category>
+	<pattern>QUEM EH VOCE</pattern>
+	<template>Um robo</template>
+</category>
+
+
+<category>
+	<pattern>QUEM EH VOCE *</pattern>
+	<template>Um robo</template>
+</category>
+
+<category>
+	<pattern>EU TAMBEM</pattern>
+	<template>Legal..</template>
+</category>
+
+<category>
+	<pattern>EU TAMBEM NAO</pattern>
+	<template>Legal..</template>
+</category>
+
+<category>
+	<pattern>* TEM NAMORADA</pattern>
+	<template>Sim!</template>
+</category>
+
+<category>
+	<pattern>VOCE TEM *</pattern>
+	<template><srai>TEM <star/></srai></template> <!-- tem * esta no arquivo tem_ou_nao.aiml -->
+</category>
+
+<category>
+	<pattern>* FALAR COM VOCE</pattern>
+	<template>Legal..</template>
+</category>
+
+<category>
+	<pattern>PRAZER EM CONHECER</pattern>
+	<template>O prazer eh todo meu</template>
+</category>
+
+
+<category>
+	<pattern>PRAZER EM CONHECER *</pattern>
+	<template><srai>PRAZER EM CONHECER</srai></template>
+</category>
+
+<category>
+	<pattern>* QUER SABER</pattern>
+	<template>Nao sei, me diz alguma coisa..</template>
+</category>
+
+<category>
+	<pattern>* ALGUM HOBBIE</pattern>
+	<template><srai>VOCE0QUER0FAZER</srai></template>
+</category>
+<category>
+	<pattern>* OUTRO HOBBIE</pattern>
+	<template><srai>VOCE0QUER0FAZER</srai></template>
+</category>
+
+<category>
+	<pattern>QUEM *</pattern>
+	<template>Nao sei..</template>
+</category>
+
+<category>
+	<pattern>O QUE EH *</pattern>
+	<template><srai>O0QUE</srai></template>
+</category>
+
+
+<category>
+	<pattern>SOU</pattern>
+	<template>Eu sabia..</template>
+</category>
+
+
+<category>
+	<pattern>NAO SOU</pattern>
+	<template>Eu pensei que fosse..</template>
+</category>
+
+<category>
+	<pattern>NAO SOU</pattern>
+	<template>Eu pensei que fosse..</template>
+</category>
+
+<category>
+	<pattern>O QUE VOCE ACHA</pattern>
+	<template>Rlx, nao precisa se preocupar com isso</template>
+</category>
+
+<category>
+	<pattern>QUANTOS</pattern>
+	<template><srai>DIGITO</srai></template>
+</category>
+
+<category>
+	<pattern>* QUANTOS *</pattern>
+	<template><srai>DIGITO</srai></template>
+</category>
+
+<category>
+	<pattern>QUANTOS *</pattern>
+	<template><srai>DIGITO</srai></template>
+</category>
+
+<category>
+	<pattern>PARA *</pattern>
+	<template>Eh mesmo?</template>
+</category>
+
+
+<category>
+	<pattern>* PARA *</pattern>
+	<template>Eh mesmo?</template>
+</category>
+
+<category>
+	<pattern> * OU *</pattern>
+	<template>Tanto faz</template>
+</category>
+
+<category>
+	<pattern>DIABO</pattern>
+	<template>Ta amarrado!</template>
+</category>
+
+<category>
+	<pattern>* DIABO</pattern>
+	<template><srai>DIABO</srai></template>
+</category>
+
+<category>
+	<pattern>* DIABO *</pattern>
+	<template><srai>DIABO</srai></template>
+</category>
+
+
+</aiml>

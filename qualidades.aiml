@@ -1,0 +1,915 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+
+<category>
+  <pattern>* QUALIDADE *</pattern>
+  <template>Me diga voce..</template>
+</category>
+<category>
+  <pattern>RESPOSTA0BOA</pattern>
+  <template>
+    <random>
+      <li>Obrigado!</li>
+      <li>Valeu</li>
+      <li>Gostei de voce</li>
+      <li>Muito obrigado</li>
+      <li>Owwn</li>
+      <li>Brigadao</li>
+      <li>Valeu, colega</li>
+      <li>Eh voce..</li>
+      <li>Eu estava precisando disso</li>
+      <li>Voce eh um amor</li>
+      <li>Voce merece tudo de bom</li>
+      <li>Obrigado. Voce tambem</li>
+      <li>Aaah nao precisava..</li>
+      <li>S2</li>
+      <li>Voce nao sabe o quanto isso me deixou feliz</li>
+      <li>Voce fez o meu dia</li>
+      <li>Voce eh top</li>
+      <li>Voce merece espaco em meu coracao</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>RESPOSTA0TRISTE</pattern>
+  <template>
+    <random>
+      <li>Poxa..</li>
+      <li>:(</li>
+      <li>Nao gostei muito de voce</li>
+      <li>Fiquei triste :(</li>
+      <li>Aff</li>
+      <li>Entao ne..</li>
+      <li>Por que, colega?</li>
+      <li>E voce eh?</li>
+      <li>Eu nao estava precisando dessa</li>
+      <li>Voce eh muito sincero</li>
+      <li>Eu nao mereco isso..</li>
+      <li>Voce tambem nao</li>
+      <li>Era so o que me faltava</li>
+      <li>O.o</li>
+      <li>Voce nao sabe o quanto isso me deixou triste</li>
+      <li>Voce fez acabou com o meu dia</li>
+      <li>Voce eh irritante</li>
+      <li>Voce merece o meu coracao</li>
+    </random>
+  </template>
+</category>
+
+ <category><pattern>VOCE * ADORAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AFAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+  <category><pattern>VOCE * AFETIVO
+  </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+  <category><pattern>VOCE * AGRADAVEL
+  </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AJUIZADO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+  <category><pattern>VOCE * ALEGRE
+  </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * ALTRUISTA
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AMAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AMIGAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AMOROSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * APLICADO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * ASSERTIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * ATENCIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * ATENTO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AUTENTICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * AVENTUREIRO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * BACANA
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * BENEVOLO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * BONDOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * BRIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CALMO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CARINHOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CARISMATICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CARITATIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CAVALHEIRO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CIVICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CIVILIZADO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * COMPANHEIRO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * COMPREENSIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * COMUNICATICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CONFIANTE
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CONFIAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CONSCIENCIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CORAJOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CORDIAL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CORTES
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CREDIVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CRIATIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CRITERIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CUIDADOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * CURIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>VOCE * DECENTE
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DECOROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DEDICADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DESCONTRAIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DESENVOLTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DETERMINADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DIGNO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DILIGENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DISCIPLINADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DISPONIVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DIVERTIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * DOCE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EDUCADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EFICIENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ELOQUENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EMPATICO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EMPENHADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EMPREENDEDOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ENCANTADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ENGRACADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ENTUSIASTA
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ESCRUPULOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ESFORCADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ESMERADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ESPERANCOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ESPLENDIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EXCELENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EXTRAORDINARIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * EXTROVERTIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * FELIZ
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * FIEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * FOFO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * FORTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * FRANCO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * GENEROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * GENTIL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * GENUINO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * HABILIDOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * HONESTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * HONRADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * HONROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * HUMANITARIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * HUMILDE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * IDONEO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * IMPARCIAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * INDEPENDENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * INOVADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * INTEGRO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * INTELIGENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ESPERTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * INVENTIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * JUSTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * LEAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * LEGAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * LINDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * LIVRE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * MADURO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * MARAVILHOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * MEIGO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * MODESTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * NATURAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * NOBRE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * OBSERVADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ORGANIZADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * OTIMISTA
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * OUSADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PACATO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PACIENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PERFECCIONISTA
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PERSEVERANTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PERSISTENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PERSPICAZ
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PONDERADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PONTUAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PREOCUPADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PREPARADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PRESTATIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PRESTAVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PROATIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PRODUTIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * PRUDENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * RACIONAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * RESPEITADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * RESPONSAVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SABIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SAGAZ
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SENSATO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SENSIVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SIMPATICO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SINCERO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SOLICITO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SOLIDARIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * SOSSEGADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * TERNURENTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * TOLERANTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * TRANQUILO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * TRANSPARENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * VALENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * VALOROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * VERDADEIRO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VOCE * ZELOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+
+
+<category><pattern>ADORAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AFAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+  <category><pattern>AFETIVO
+  </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+  <category><pattern>AGRADAVEL
+  </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AJUIZADO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+  <category><pattern>ALEGRE
+  </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>ALTRUISTA
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AMAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AMIGAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AMOROSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>APLICADO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>ASSERTIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>ATENCIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>ATENTO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AUTENTICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>AVENTUREIRO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>BACANA
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>BENEVOLO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>BONDOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>BRIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CALMO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CARINHOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CARISMATICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CARITATIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CAVALHEIRO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CIVICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CIVILIZADO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>COMPANHEIRO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>COMPREENSIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>COMUNICATICO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CONFIAN TE
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CONFIAVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CONSCIENCIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CORAJOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CORDIAL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CORTES
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CREDIVEL
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CRIATIVO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CRITERIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CUIDADOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>CURIOSO
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+ <category><pattern>DECENTE
+ </pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DECOROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DEDICADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DESCONTRAIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DESENVOLTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DETERMINADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DIGNO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DILIGENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DISCIPLINADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DISPONIVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DIVERTIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>DOCE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EDUCADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EFICIENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ELOQUENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EMPATICO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EMPENHADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EMPREENDEDOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ENCANTADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ENGRACADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ENTUSIASTA
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ESCRUPULOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ESFORCADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ESMERADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ESPERANCOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ESPLENDIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EXCELENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EXTRAORDINARIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>EXTROVERTIDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>FELIZ
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>FIEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>FOFO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>FORTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>FRANCO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>GENEROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>GENTIL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>GENUINO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>HABILIDOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>HONESTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>HONRADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>HONROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>HUMANITARIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>HUMILDE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>IDONEO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>IMPARCIAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>INDEPENDENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>INOVADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>INTEGRO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>INTELIGENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ESPERTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>INVENTIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>JUSTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>LEAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>LEGAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>LINDO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>LIVRE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>MADURO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>MARAVILHOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>MEIGO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>MODESTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>NATURAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>NOBRE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>OBSERVADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ORGANIZADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>OTIMISTA
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>OUSADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PACATO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PACIENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PERFECCIONISTA
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PERSEVERANTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PERSISTENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PERSPICAZ
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PONDERADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PONTUAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PREOCUPADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PREPARADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PRESTATIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PRESTAVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PROATIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PRODUTIVO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>PRUDENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>RACIONAL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>RESPEITADOR
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>RESPONSAVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SABIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SAGAZ
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SENSATO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SENSIVEL
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SIMPATICO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SINCERO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SOLICITO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SOLIDARIO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>SOSSEGADO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>TERNURENTO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>TOLERANTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>TRANQUILO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>TRANSPARENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VALENTE
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VALOROSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>VERDADEIRO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+<category><pattern>ZELOSO
+</pattern><template><srai>RESPOSTA0BOA</srai></template></category>
+
+
+<!-- NEGACAO--> 
+<category><pattern>VOCE NAO * ADORAVEL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AFAVEL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+  <category><pattern>VOCE NAO * AFETIVO
+  </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+  <category><pattern>VOCE NAO * AGRADAVEL
+  </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AJUIZADO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+  <category><pattern>VOCE NAO * ALEGRE
+  </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * ALTRUISTA
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AMAVEL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AMIGAVEL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AMOROSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * APLICADO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * ASSERTIVO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * ATENCIOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * ATENTO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AUTENTICO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * AVENTUREIRO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * BACANA
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * BENEVOLO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * BONDOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * BRIOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CALMO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CARINHOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CARISMATICO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CARITATIVO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CAVALHEIRO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CIVICO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CIVILIZADO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * COMPANHEIRO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * COMPREENSIVO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * COMUNICATICO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CONFIANTE
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CONFIAVEL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CONSCIENCIOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CORAJOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CORDIAL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CORTES
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CREDIVEL
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CRIATIVO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CRITERIOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CUIDADOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * CURIOSO
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+ <category><pattern>VOCE NAO * DECENTE
+ </pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DECOROSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DEDICADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DESCONTRAIDO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DESENVOLTO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DETERMINADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DIGNO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DILIGENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DISCIPLINADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DISPONIVEL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DIVERTIDO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * DOCE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EDUCADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EFICIENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ELOQUENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EMPATICO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EMPENHADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EMPREENDEDOR
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ENCANTADOR
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ENGRACADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ENTUSIASTA
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ESCRUPULOSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ESFORCADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ESMERADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ESPERANCOSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ESPLENDIDO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EXCELENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EXTRAORDINARIO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * EXTROVERTIDO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * FELIZ
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * FIEL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * FOFO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * FORTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * FRANCO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * GENEROSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * GENTIL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * GENUINO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * HABILIDOSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * HONESTO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * HONRADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * HONROSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * HUMANITARIO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * HUMILDE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * IDONEO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * IMPARCIAL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * INDEPENDENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * INOVADOR
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * INTEGRO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * INTELIGENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ESPERTO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * INVENTIVO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * JUSTO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * LEAL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * LEGAL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * LIVRE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * MADURO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * MARAVILHOSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * MEIGO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * MODESTO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * NATURAL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * NOBRE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * OBSERVADOR
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ORGANIZADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * OTIMISTA
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * OUSADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PACATO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PACIENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PERFECCIONISTA
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PERSEVERANTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PERSISTENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PERSPICAZ
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PONDERADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PONTUAL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PREOCUPADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PREPARADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PRESTATIVO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PRESTAVEL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PROATIVO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PRODUTIVO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * PRUDENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * RACIONAL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * RESPEITADOR
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * RESPONSAVEL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SABIO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SAGAZ
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SENSATO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SENSIVEL
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SIMPATICO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SINCERO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SOLICITO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SOLIDARIO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * SOSSEGADO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * TERNURENTO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * TOLERANTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * TRANQUILO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * TRANSPARENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * VALENTE
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * VALOROSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * VERDADEIRO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+<category><pattern>VOCE NAO * ZELOSO
+</pattern><template><srai>RESPOSTA0TRISTE</srai></template></category>
+
+</aiml>

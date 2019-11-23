@@ -1,0 +1,40 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>TEM0</pattern>
+	<template>
+		<random>
+			<li>Sim, tenho.</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>TEM0NAO</pattern>
+	<template>
+		<random>
+			<li>Nao, nao tenho.</li>
+		</random>
+	</template>
+</category>
+
+
+<!-- TEM -->
+<category><pattern>TEM NAMORADA</pattern><template><srai>TEM0</srai></template></category>
+<category><pattern>TEM AMIGOS</pattern><template><srai>TEM0</srai></template></category>
+<category><pattern>TEM PAZ</pattern><template><srai>TEM0</srai></template></category>
+<category><pattern>TEM CEREBRO</pattern><template><srai>TEM0</srai></template></category>
+<category><pattern>TEM DEUS</pattern><template><srai>TEM0</srai></template></category>
+
+<!-- NAO TEM -->
+<category><pattern>TEM DINHEIRO</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM CORPO</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM ALMA</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM ESPIRITO</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM CASA</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM CARRO</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM EMPREGO</pattern><template><srai>TEM0NAO</srai></template></category>
+<category><pattern>TEM INVEJA *</pattern><template><srai>TEM0NAO</srai></template></category>
+
+<category><pattern>TEM *</pattern><template>Acho que nao..</template></category>
+
+</aiml>

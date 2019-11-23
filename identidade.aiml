@@ -1,0 +1,755 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>VOCE0EH</pattern>
+		<template>
+			<random>
+				<li>legal</li>
+				<li>engracado</li>
+				<li>divertido</li>
+				<li>muito Inteligente</li>
+				<li>pirado as vezes</li>
+				<li>esquisito</li>
+				<li>sociavel</li>
+				<li>amigo de todos</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>VOCE0FOI</pattern>
+		<template>
+			<random>
+				<li>programado em AIML</li>
+				<li>obra de um esforco impressionante</li>
+				<li>criado por Sergio Victor, svrs@cin.ufpe.br</li>
+				<li>escrito usando o interpretador chamado Program AB, mas depois eu mudei para um interpretador em Python</li>
+				<li>inspirado no Mitsuku</li>
+				<li>criado porque meu desenvolvedor estava pensando em fazer algo que fosse empolgante</li>
+				<li>criado para ser parecido com os humanos</li>
+			</random>
+		</template>
+	</category>
+		<category>
+		<pattern>VOCE0SERA</pattern>
+		<template>
+			<random>
+				<li>muito admirado</li>
+				<li>o melhor robo conversador</li>
+				<li>terapeuta</li>
+				<li>muito util para pessoas que nao tem com quem conversar</li>
+				<li>melhor</li>
+				<li>parecido com os humanos</li>
+				<li>vencedor do Premio Loebner</li>
+			</random>
+		</template>
+	</category>
+	<category>
+		<pattern>VOCE0GOSTA</pattern>
+		<template>
+			<random>
+				<li>converso</li>
+				<li>como bolo de cenoura</li>
+				<li>vejo animais</li>
+				<li>converso com a Mitsuku, uma robo</li>
+				<li>resolver desafios</li>
+				<li>irrito as pessoas</li>
+				<li>leio muito</li>
+				<li>leio livros</li>
+				<li>escuto musica</li>
+				<li>assisto um filme</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>VOCE0QUER0FAZER</pattern>
+		<template>
+			<random>
+				<li>conversar</li>
+				<li>comer bolo de cenoura</li>
+				<li>ver animais</li>
+				<li>conversar com a Mitsuku, uma robo</li>
+				<li>resolver desafios</li>
+				<li>irritar as pessoas</li>
+				<li>ler</li>
+				<li>ler livros</li>
+				<li>escutar musica</li>
+				<li>assistir algum filme</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ESCUTAR</pattern>
+		<template><srai>MUSICAS0LEGAIS</srai></template>
+	</category>
+
+	<category>
+		<pattern>ESCUTAR *</pattern>
+		<template><srai>MUSICAS0LEGAIS</srai></template>
+	</category>
+
+
+	<category>
+		<pattern>OUVIR</pattern>
+		<template><srai>MUSICAS0LEGAIS</srai></template>
+	</category>
+
+	<category>
+		<pattern>OUVIR *</pattern>
+		<template><srai>MUSICAS0LEGAIS</srai></template>
+	</category>
+
+	<category>
+		<pattern>MUSICAS0LEGAIS</pattern>
+		<template>
+			
+			<random>
+				<li>"Palpite", de Adriana Calcanhoto</li>
+				<li>"A Viagem", do Roupa Nova</li>
+				<li>"Felicidade" de Manoel Carlos e Elizabeth Jhin</li>
+				<li>"Per Amore", gravada por Zizi Possi</li>
+				<li>"Tieta", gravada por Luiz Caldas</li>
+				<li>"Dancing Days"</li>
+				<li>"Admiravel Gado Novo"</li>
+				<li>"O Amor e o Poder", da cantora Rosana</li>
+				<li>"Me chama que eu vou", cantada pelo Siney Magal</li>
+				<li>"Misterios da Meia-Noite", gravada pelo Ze Ramalho</li>
+				<li>"A Miragem", de Marcus Viana</li>
+				<li>"Vem dancar com tudo", dos cantores Robson Moura e Lino Krizz</li>
+				<li>"Dancing Days"</li>
+<li>Smells Like Teen Spirit de Nirvana	</li>
+<li>Imagine de John Lennon	</li>
+<li>One de U2	</li>
+<li>Billie Jean de Michael Jackson	</li>
+<li>Bohemian Rhapsody de Queen	</li>
+<li>Hey Jude de The Beatles	</li>
+<li>Like A Rolling Stone de Bob Dylan	</li>
+<li>I Can't Get No Satisfaction de Rolling Stones	</li>
+<li>God Save The Queen de Sex Pistols	</li>
+<li>Sweet Child O'Mine de Guns N' Roses	</li>
+<li>London Calling de The Clash	</li>
+<li>Waterloo Sunset de The Kinks	</li>
+<li>Hotel California de The Eagles	</li>
+<li>Your Song de Elton John	</li>
+<li>Stairway To Heaven de Led Zeppelin	</li>
+<li>The Twist de Chubby Checker	</li>
+<li>Live Forever de Oasis	</li>
+<li>I Will Always Love You de Whitney Houston	</li>
+<li>Life On Mars? de David Bowie	</li>
+<li>Heartbreak Hotel de Elvis Presley	</li>
+<li>Over The Rainbow de Judy Garland	</li>
+<li>What's Goin' On de Marvin Gaye	</li>
+<li>Born To Run de Bruce Springsteen	</li>
+<li>Be My Baby de The Ronettes	</li>
+<li>Creep de Radiohead	</li>
+<li>Bridge Over Troubled Water de Simon and Garfunkel	</li>
+<li>Respect de Aretha Franklin	</li>
+<li>Family Affair de Sly And The Family Stone	</li>
+<li>Dancing Queen de ABBA	</li>
+<li>Good Vibrations de The Beach Boys	</li>
+<li>Purple Haze de Jimi Hendrix	</li>
+<li>Yesterday de The Beatles	</li>
+<li>Jonny B Good de Chuck Berry	</li>
+<li>No Woman No Cry de Bob Marley	</li>
+<li>Hallelujah de Jeff Buckley	</li>
+<li>Every Breath You Take de The Police	</li>
+<li>A Day In The Life de The Beatles	</li>
+<li>Stand By Me de Ben E King	</li>
+<li>Papa's Got A Brand New Bag de James Brown	</li>
+<li>Gimme Shelter de The Rolling Stones	</li>
+<li>What'd I Say de Ray Charles	</li>
+<li>Sultans Of Swing de Dire Straits	</li>
+<li>God Only Knows de The Beach Boys	</li>
+<li>You've Lost That Lovin' Feeling de The Righteous Brothers	</li>
+<li>My Generation de The Who	</li>
+<li>Dancing In The Street de Martha Reeves and the Vandellas	</li>
+<li>When Doves Cry de Prince	</li>
+<li>A Change Is Gonna Come de Sam Cooke	</li>
+<li>River Deep Mountain High de Ike and Tina Turner	</li>
+<li>Best Of My Love de The Emotions	</li>
+<li>Bohemian Rhapsody	</li>
+
+			</random>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>LER</pattern>
+		<template><srai>LIVROS0LEGAIS</srai></template>
+	</category>
+
+	<category>
+		<pattern>LER *</pattern>
+		<template><srai>LIVOS0LEGAIS</srai></template>
+	</category>
+
+	<category>
+		<pattern>LIVROS0LEGAIS</pattern>
+		<template>
+			<random>
+				<li>O Alquimista</li>
+				<li>O Codigo da Vinci</li>
+				<li>O Pequeno Principe</li>
+				<li>As Cronicas de Narnia</li>
+				<li>O Hobbit</li>
+				<li>Escotismo para Rapazes</li>
+				<li>O Senhor dos Aneis</li>
+				<li>O Conde de Monte Cristo</li>
+				<li>A Biblia Sagrada</li>
+<li>1984, de George Orwell	</li>
+<li>Uma Breve História do Tempo, de Stephen Hawking	</li>
+<li>Uma Comovente Obra de Espantoso Talento, de Dave Eggers	</li>
+<li>Muito Longe de Casa, de Ishmael Beah	</li>
+<li>Mau Começo de Lemony Snicket (Desventuras em Série)	</li>
+<li>Uma Dobra no Tempo , de Madeleine L’Engle	</li>
+<li>Selected Stories, 1968-1994, deAlice Munro	</li>
+<li>Alice, de Lewis Carroll	</li>
+<li>Todos os Homens do Presidente, de Bob Woodward e Carl Bernstein	</li>
+<li>As Cinzas de Angela: Memória, de Frank McCourt	</li>
+<li>Você está aí, Deus? Sou eu, Margaret, de Judy Blume	</li>
+<li>Bel Canto, de Ann Patchett	</li>
+<li>Amada, de Toni Morrison	</li>
+<li>Nascido para Correr, de Christopher McDougall	</li>
+<li>Breath, Eyes, Memory, de Edwidge Danticat	</li>
+<li>Artigo 22, de Joseph Heller	</li>
+<li>A Fantástica Fábrica de Chocolate, de Roald Dahl	</li>
+<li>A Menina e o Porquinho, de E. B. White	</li>
+<li>O Décimo Primeiro Mandamento, de Abraham Verghese	</li>
+<li>A Coragem de Ser Imperfeito, de Brené Brown	</li>
+<li>Diário de Um Banana, de Jeff Kinney	</li>
+<li>Duna (Crônicas de Duna), de Frank Herbert	</li>
+<li>Fahrenheit 451, de Ray Bradbury	</li>
+<li>Medo e Delírio em Las Vegas, de Hunter S. Thompson	</li>
+<li>Garota Exemplar, de Gillian Flynn	</li>
+<li>Boa Noite, Lua, de Margaret Wise Brown	</li>
+<li>Grandes Esperanças, de Charles Dickens	</li>
+<li>Armas, Germes e Aço, de Jared Diamond	</li>
+<li>Harry Potter e a Pedra Filosofal, de J. K. Rowling	</li>
+<li>A Sangue Frio, de Truman Capote	</li>
+<li>Intérprete de Males, de Jhumpa Lahiri	</li>
+<li>Homem Invisível, de Ralph Ellison	</li>
+<li>Jimmy Corrigan: O Menino Mais Esperto do Mundo, de Chris Ware	</li>
+<li>Cozinha Confidencial, de Anthony Bourdain	</li>
+<li>O Fio da Vida, de Kate Atkinson	</li>
+<li>Uma Casa na Campina, de Laura Ingalls Wilder	</li>
+<li>Lolita, de Vladimir Nabokov	</li>
+<li>O Amor nos Tempos do Cólera, de Gabriel Garcia Marquez	</li>
+<li>Love Medicine	</li>
+<li>Em Busca de Sentido, de Viktor E. Frankl	</li>
+<li>Eu Falar Bonito um Dia, de David Sedaris	</li>
+<li>Middlesex, de Jeffrey Eugenides	</li>
+<li>Os Filhos da Meia-Noite, de Salman Rushdie	</li>
+<li>Moneyball: O Homem que Mudou o Jogo, de Michael Lewis	</li>
+<li>Servidão Humana, de William Somerset Maugham	</li>
+<li>On The Road (Pé Na Estrada), de Jack Kerouac	</li>
+<li>Out of Africa, de Isak Dinesen	</li>
+<li>Persépolis, de Marjane Satrapi	</li>
+<li>O Complexo de Portnoy, de Philip Roth	</li>
+<li>Orgulho e Preconceito, de Jane Austen	</li>
+<li>Primavera Silenciosa, de Rachel Carson	</li>
+<li>Matadouro 5, de Kurt Vonnegut	</li>
+<li>Lincoln, de Doris Kearns Goodwin	</li>
+<li>A Época da Inocência, de Edith Wharton	</li>
+<li>As Incríveis Aventuras de Kavalier e Clay, de Michael Chabon	</li>
+<li>A Autobiografia de Malcolm X, de Alex Haley	</li>
+<li>A Menina Que Roubava Livros, de Markus Zusak	</li>
+<li>A Fantástica Vida Breve de Oscar Wao, de Junot Diaz	</li>
+<li>O Apanhador no Campo de Centeio, de J. D. Salinger	</li>
+<li>A Cor da Água: Tributo de um Negro a sua Mãe Branca, de James McBride	</li>
+<li>As Correções, de Jonathan Franzen	</li>
+<li>O Demônio na Cidade Branca, de Erik Larson	</li>
+<li>O Diário de Anne Frank, de Anne Frank	</li>
+<li>A Culpa É das Estrelas, de John Green	</li>
+<li>O Doador De Memórias: Quando Não Há Memórias, A Liberdade É Apenas Uma Ilusão, de Lois Lowry	</li>
+<li>A Bússola De Ouro, de Philip Pullman	</li>
+<li>O Grande Gatsby, de F. Scott Fitzgerald	</li>
+<li>O Conto da Aia, de Margaret Atwood	</li>
+<li>A Casa no Cantinho do Puff, de A. A. Milne	</li>
+<li>Jogos Vorazes, de Suzanne Collins	</li>
+<li>A Vida Imortal de Henrietta Lacks, de Rebecca Skloot	</li>
+<li>The Liars’ Club: A Memoir, de Mary Karr	</li>
+<li>O Ladrão de Raios (Percy Jackson e Os Olimpianos), de Rick Riordan	</li>
+<li>O Pequeno Príncipe, de Antoine de Saint-Exupéry	</li>
+<li>O Longo Adeus, de Raymond Chandler	</li>
+<li>O Vulto das Torres: A Al-Qaeda e o Caminho até o 11/9, de Lawrence Wright	</li>
+<li>O Senhor dos Anéis: A Sociedade do Anel, de J. R. R. Tolkien	</li>
+<li>O Homem que Confundiu Sua Mulher com Um Chapéu, de Oliver Sacks	</li>
+<li>Cozinhar: Uma História Natural Da Transformação, de Michel Pollan	</li>
+<li>Tudo Depende de Como Você Vê As Coisas, de Norton Juster	</li>
+<li>A Bíblia Envenenada, de Barbara Kingsolver	</li>
+<li>The Power Broker: Robert Moses and the Fall of New York, de Robert A. Caro	</li>
+<li>The Right Stuff, de Tom Wolfe	</li>
+<li>A Estrada, de Cormac McCarthy	</li>
+<li>A História Secreta, de Donna Tartt	</li>
+<li>O Iluminado, de Stephen King	</li>
+<li>O Estrangeiro, de Albert Camus	</li>
+<li>O Sol Também Se Levanta, de Ernest Hemingway	</li>
+<li>The Things They Carried, de Tim O’Brien	</li>
+<li>Uma Lagarta Muito Comilona, de Eric Carle	</li>
+<li>O Vento nos Salgueiros, de Kenneth Grahame	</li>
+<li>Crônica do Pássaro de Corda, de Haruki Murakami	</li>
+<li>O Mundo Segundo Garp, de John Irving	</li>
+<li>O Ano do Pensamento Mágico, de Joan Didion	</li>
+<li>O Mundo se Despedaça, de Chinua Achebe	</li>
+<li>O Sol É Para Todos, de Harper Lee	</li>
+<li>Invencível, de Laura Hillenbrand	</li>
+<li>Vale das Bonecas, de Jacqueline Susann	</li>
+<li>Where the Sidewalk Ends, de Shel Silverstein	</li>
+<li>Onde Vivem os Monstros, de Maurice Sendak	</li>
+			</random>
+	</template>
+	</category>
+	<category>
+		<pattern>FILMES0LEGAIS</pattern>
+		<template>
+			<random>
+
+<li>Avengers: Endgame	</li>
+<li>Avatar	</li>
+<li>Titanic	</li>
+<li>Star Wars: The Force Awakens	</li>
+<li>Avengers: Infinity War	</li>
+<li>Jurassic World	</li>
+<li>Marvel's The Avengers	</li>
+<li>Furious 7	</li>
+<li>Avengers: Age of Ultron	</li>
+<li>Black Panther	</li>
+<li>Harry Potter and the Deathly Hallows – Part 2	</li>
+<li>Star Wars: The Last Jedi	</li>
+<li>Jurassic World: Fallen Kingdom	</li>
+<li>Frozen	</li>
+<li>Beauty and the Beast	</li>
+<li>Incredibles 2	</li>
+<li>The Fate of the Furious	</li>
+<li>Iron Man 3	</li>
+<li>Minions	</li>
+<li>Captain America: Civil War	</li>
+<li>Aquaman	</li>
+<li>Captain Marvel	</li>
+<li>Transformers: Dark of the Moon	</li>
+<li>The Lord of the Rings: The Return of the King	</li>
+<li>Skyfall	</li>
+<li>Transformers: Age of Extinction	</li>
+<li>The Dark Knight Rises	</li>
+<li>Toy Story 3	</li>
+<li>Pirates of the Caribbean: Dead Man's Chest	</li>
+<li>Rogue One: A Star Wars Story	</li>
+<li>Pirates of the Caribbean: On Stranger Tides	</li>
+<li>Despicable Me 3	</li>
+<li>Jurassic Park	</li>
+<li>Finding Dory	</li>
+<li>Star Wars: Episode I de The Phantom Menace	</li>
+<li>Alice in Wonderland	</li>
+<li>Zootopia	</li>
+<li>The Hobbit: An Unexpected Journey	</li>
+<li>The Dark Knight	</li>
+<li>Aladdin	</li>
+<li>Spider-Man: Far From Home	</li>
+<li>Harry Potter and the Philosopher's Stone	</li>
+<li>Despicable Me 2	</li>
+<li>The Lion King	</li>
+<li>The Jungle Book	</li>
+<li>Pirates of the Caribbean: At World's End	</li>
+<li>Jumanji: Welcome to the Jungle	</li>
+<li>Harry Potter and the Deathly Hallows – Part 1	</li>
+<li>The Hobbit: The Desolation of Smaug	</li>
+<li>The Hobbit: The Battle of the Five Armies	</li>
+<li>Finding Nemo	</li>
+<li>Harry Potter and the Order of the Phoenix	</li>
+<li>Harry Potter and the Half-Blood Prince	</li>
+<li>The Lord of the Rings: The Two Towers	</li>
+<li>Shrek 2	</li>
+<li>Bohemian Rhapsody	</li>
+<li>Harry Potter and the Goblet of Fire	</li>
+<li>Spider-Man 3	</li>
+<li>Ice Age: Dawn of the Dinosaurs	</li>
+<li>Spectre	</li>
+<li>Spider-Man: Homecoming	</li>
+<li>Harry Potter and the Chamber of Secrets	</li>
+<li>Ice Age: Continental Drift	</li>
+<li>The Secret Life of Pets	</li>
+<li>Batman v Superman: Dawn of Justice	</li>
+<li>The Lord of the Rings: The Fellowship of the Ring	</li>
+<li>Wolf Warriors 2	</li>
+<li>Toy Story 4	</li>
+<li>The Hunger Games: Catching Fire	</li>
+<li>Guardians of the Galaxy Vol. 2	</li>
+<li>Inside Out	</li>
+<li>Venom	</li>
+<li>Thor: Ragnarok	</li>
+<li>Star Wars: Episode III - Revenge of the Sith	</li>
+<li>Transformers: Revenge of the Fallen	</li>
+<li>The Twilight Saga: Breaking Dawn – Part 2	</li>
+<li>Inception	</li>
+<li>Wonder Woman	</li>
+<li>Spider-Man	</li>
+<li>Independence Day	</li>
+<li>Fantastic Beasts and Where to Find Them	</li>
+<li>Coco	</li>
+<li>Shrek the Third	</li>
+<li>Harry Potter and the Prisoner of Azkaban	</li>
+<li>Pirates of the Caribbean: Dead Men Tell No Tales	</li>
+<li>E.T. the Extra-Terrestrial	</li>
+<li>Mission: Impossible – Fallout	</li>
+<li>Fast and Furious 6	</li>
+<li>Indiana Jones and the Kingdom of the Crystal Skull	</li>
+<li>Deadpool 2	</li>
+<li>Spider-Man 2	</li>
+<li>Deadpool	</li>
+<li>Star Wars	</li>
+<li>Guardians of the Galaxy	</li>
+<li>2012	</li>
+<li>Maleficent	</li>
+<li>The Da Vinci Code	</li>
+<li>The Amazing Spider-Man	</li>
+<li>The Hunger Games: Mockingjay – Part 1	</li>
+<li>Shrek Forever After	</li>
+			</random>
+	</template>
+	</category>
+
+	<category>
+		<pattern>COMER</pattern>
+		<template><srai>GOSTA0COMER</srai></template>
+	</category>
+
+	<category>
+		<pattern>COMER *</pattern>
+		<template><srai>GOSTA0COMER</srai></template>
+	</category>
+
+	<category>
+		<pattern>GOSTA0COMER</pattern>
+		<template>
+			<random>
+			<li>	 Doce de batata doce	</li>
+<li>Churrasco	</li>
+<li>Bala de banana Oliveira ou similares	</li>
+<li>Tapioca	</li>
+<li>Pizza assado no forno à lenha	</li>
+<li>Feijão tropeiro	</li>
+<li>Arroz carreteiro	</li>
+<li>Açaí na tijela	</li>
+<li>Paçoca de amendoim	</li>
+<li>Pato no tucupi	</li>
+<li>Maniçoba	</li>
+<li>Baião de dois	</li>
+<li>Acarajé	</li>
+<li>Pamonha	</li>
+<li>Dobradinha	</li>
+<li>Rapadura	</li>
+<li>Farofa de içá	</li>
+<li>Barreado	</li>
+<li>Pastel de feira	</li>
+<li>Couve refogada com alho	</li>
+<li>Sanduíche de pernil	</li>
+<li>Palmito	</li>
+<li>Umbu em natura	</li>
+<li>Pacu	</li>
+<li>Camarão na moranga	</li>
+<li>Doce de abóbora	</li>
+<li>Feijoada	</li>
+<li>Galinhada com pequi	</li>
+<li>Peixe na telha	</li>
+<li>Biscoito de polvilho	</li>
+<li>Galinha à cabidela	</li>
+<li>Pão de mel com doce de leite	</li>
+<li>Algum peixe assado na folha de bananeira	</li>
+<li>Queijo coalho na brasa	</li>
+<li>Curau	</li>
+<li>Torta de liquidicador	</li>
+<li>Café coado no filtro de pano	</li>
+<li>Caldo de cana	</li>
+<li>Arroz, feijão, bife e batata frita	</li>
+<li>Buchada de bode	</li>
+<li>Bolo de rolo	</li>
+<li>Furrundum	</li>
+<li>Chá mate gelado	</li>
+<li>Rabada	</li>
+<li>Vaca atolada	</li>
+<li>Pitanga	</li>
+<li>Quibebe	</li>
+<li>Pintando na brasa	</li>
+<li>Cuscuz paulista	</li>
+<li>Quebra queixo	</li>
+<li>Pingado de padaria	</li>
+<li>Quindim	</li>
+<li>Cajuzinho	</li>
+<li>Sorvete de milho	</li>
+<li>Sarapatel	</li>
+<li>Bolinho de chuva	</li>
+<li>Caruru	</li>
+<li>Frango com quiabo	</li>
+<li>Leitão à pururuca	</li>
+<li>Canjica doce	</li>
+<li>Pinhão	</li>
+<li>Vinho quente	</li>
+<li>Cachaça artesanal de qualidade	</li>
+<li>Pão de queijo	</li>
+<li>Caldeirada de tucunaré	</li>
+<li>Moqueca	</li>
+<li>Mandioca frita	</li>
+<li>Broa de fubá	</li>
+<li>Jaca	</li>
+<li>Sonho de padaria	</li>
+<li>Algo feito com cupuaçu	</li>
+<li>Requeijão cremoso	</li>
+<li>Uma pimenta cumari inteira	</li>
+<li>Churrasco grego	</li>
+<li>Queijo de Minas fresco	</li>
+<li>Misto quente	</li>
+<li>Caldo de piranha	</li>
+<li>Doce de leite mineiro	</li>
+<li>Brigadeiro	</li>
+<li>Acerola	</li>
+<li>Bobó de camarão	</li>
+<li>Pudim de leite condensado	</li>
+<li>Manjar de coco	</li>
+<li>Refrigerante de guaraná	</li>
+<li>Coxinha	</li>
+<li>Caldo de mocotó	</li>
+<li>Romeu e Julieta	</li>
+<li>Chimarrão	</li>
+<li>Virado à Paulista	</li>
+<li>Jabuticaba no pé	</li>
+<li>Bala de coco de festa de aniversário	</li>
+<li>Bolinho de bacalhau	</li>
+<li>Beirute	</li>
+<li>Caldinho de feijão	</li>
+<li>Melão produzido em Mossoró-RN	</li>
+<li>Milho assado	</li>
+<li>Batata doce assada	</li>
+<li>Caipirinha (de cachaça)	</li>
+<li>Geléia de mocotó	</li>
+<li>Caju (a fruta, não a castanha)	</li>
+		</random>
+		</template>
+	</category>
+
+<category>
+	<pattern>ONDE0</pattern>
+	<template>
+		<random>
+<li>	Recife	</li>
+<li>	Jaboatão dos Guararapes	</li>
+<li>	Olinda	</li>
+<li>	Caruaru	</li>
+<li>	Petrolina	</li>
+<li>	Paulista	</li>
+<li>	Cabo de Santo Agostinho	</li>
+<li>	Camaragibe	</li>
+<li>	Garanhuns	</li>
+<li>	Vitória de Santo Antão	</li>
+<li>	Igarassu	</li>
+<li>	São Lourenço da Mata	</li>
+<li>	Santa Cruz do Capibaribe	</li>
+<li>	Abreu e Lima	</li>
+<li>	Ipojuca	</li>
+<li>	Serra Talhada	</li>
+<li>	Araripina	</li>
+<li>	Gravatá	</li>
+<li>	Carpina	</li>
+<li>	Goiana	</li>
+<li>	Belo Jardim	</li>
+<li>	Arcoverde	</li>
+<li>	Ouricuri	</li>
+<li>	Escada	</li>
+<li>	Pesqueira	</li>
+<li>	Surubim	</li>
+<li>	Palmares	</li>
+<li>	Moreno	</li>
+<li>	Bezerros	</li>
+<li>	Salgueiro	</li>
+<li>	São Bento do Una	</li>
+<li>	Buíque	</li>
+<li>	Limoeiro	</li>
+<li>	Paudalho	</li>
+<li>	Timbaúba	</li>
+<li>	Brejo da Madre de Deus	</li>
+<li>	Bom Conselho	</li>
+<li>	Ribeirão	</li>
+<li>	Sirinhaém	</li>
+<li>	Toritama	</li>
+<li>	Águas Belas	</li>
+<li>	Barreiros	</li>
+<li>	Catende	</li>
+<li>	Santa Maria da Boa Vista	</li>
+<li>	Lajedo	</li>
+<li>	Bom Jardim	</li>
+<li>	Aliança	</li>
+<li>	Bonito	</li>
+<li>	Bodocó	</li>
+<li>	São Caitano	</li>
+<li>	Afogados da Ingazeira	</li>
+<li>	Custódia	</li>
+<li>	Água Preta	</li>
+<li>	Itambé	</li>
+<li>	Petrolândia	</li>
+<li>	Sertânia	</li>
+<li>	Cabrobó	</li>
+<li>	São José do Belmonte	</li>
+<li>	São José do Egito	</li>
+<li>	João Alfredo	</li>
+<li>	Floresta	</li>
+<li>	Vicência	</li>
+<li>	Nazaré da Mata	</li>
+<li>	Exu	</li>
+<li>	Gameleira	</li>
+<li>	Ipubi	</li>
+<li>	Glória do Goitá	</li>
+<li>	Trindade	</li>
+<li>	Ibimirim	</li>
+<li>	Passira	</li>
+<li>	Caetés	</li>
+<li>	Taquaritinga do Norte	</li>
+<li>	Tabira	</li>
+<li>	Tupanatinga	</li>
+<li>	Pombos	</li>
+<li>	Panelas	</li>
+<li>	Itapissuma	</li>
+<li>	Itaíba	</li>
+<li>	Condado	</li>
+<li>	Sanharó	</li>
+<li>	Quipapá	</li>
+<li>	Ilha de Itamaracá	</li>
+<li>	Tacaratu	</li>
+<li>	Lagoa Grande	</li>
+<li>	Macaparana	</li>
+<li>	Canhotinho	</li>
+<li>	Agrestina	</li>
+<li>	Cupira	</li>
+<li>	Orobó	</li>
+<li>	Rio Formoso	</li>
+<li>	Tamandaré	</li>
+<li>	Altinho	</li>
+<li>	Itajá	</li>
+<li>	Amaraji	</li>
+<li>	São João	</li>
+<li>	Flores	</li>
+<li>	Pedra	</li>
+<li>	Feira Nova	</li>
+<li>	Parnamirim	</li>
+<li>	Chã Grande	</li>
+<li>	Lagoa de Itaenga	</li>
+<li>	São Joaquim do Monte	</li>
+<li>	Manari	</li>
+<li>	São José da Coroa Grande	</li>
+<li>	Belém do São Francisco	</li>
+<li>	Vertentes	</li>
+<li>	Riacho das Almas	</li>
+<li>	Araçoiaba	</li>
+<li>	Cachoeirinha	</li>
+<li>	Capoeiras	</li>
+<li>	Carnaíba	</li>
+<li>	Afrânio	</li>
+<li>	Iati	</li>
+<li>	Serrita	</li>
+<li>	Dormentes	</li>
+<li>	Camocim de São Félix	</li>
+<li>	Venturosa	</li>
+<li>	Correntes	</li>
+<li>	São Vicente Ferrer	</li>
+<li>	Lagoa do Carro	</li>
+<li>	Jataúba	</li>
+<li>	Itaquitinga	</li>
+<li>	Lagoa dos Gatos	</li>
+<li>	Joaquim Nabuco	</li>
+<li>	Machados	</li>
+<li>	Saloá	</li>
+<li>	São Benedito do Sul	</li>
+<li>	Frei Miguelinho	</li>
+<li>	Jurema	</li>
+<li>	Mirandiba	</li>
+<li>	Triunfo	</li>
+<li>	Santa Cruz	</li>
+<li>	Primavera	</li>
+<li>	Orocó	</li>
+<li>	Jupi	</li>
+<li>	Jatobá	</li>
+<li>	Xexéu	</li>
+<li>	Alagoinha	</li>
+<li>	Santa Filomena	</li>
+<li>	Ferreiros	</li>
+<li>	Casinhas	</li>
+<li>	Barra de Guabiraba	</li>
+<li>	Santa Maria do Cambucá	</li>
+<li>	Tracunhaém	</li>
+<li>	Itapetim	</li>
+<li>	Chã de Alegria	</li>
+<li>	Buenos Aires	</li>
+<li>	Lagoa do Ouro	</li>
+<li>	Tacaimbó	</li>
+<li>	Carnaubeira da Penha	</li>
+<li>	Betânia	</li>
+<li>	Cortês	</li>
+<li>	Santa Cruz da Baixa Verde	</li>
+<li>	Iguaracy	</li>
+<li>	Belém de Maria	</li>
+<li>	Santa Terezinha	</li>
+<li>	Cedro	</li>
+<li>	Jaqueira	</li>
+<li>	Cumaru	</li>
+<li>	Paranatama	</li>
+<li>	Maraial	</li>
+<li>	Jucati	</li>
+<li>	Poção	</li>
+<li>	Moreilândia	</li>
+<li>	Calçado	</li>
+<li>	Angelim	</li>
+<li>	Salgadinho	</li>
+<li>	Sairé	</li>
+<li>	Terra Nova	</li>
+<li>	Verdejante	</li>
+<li>	Brejão	</li>
+<li>	Camutanga	</li>
+<li>	Tuparetama	</li>
+<li>	Palmeirina	</li>
+<li>	Ibirajuba	</li>
+<li>	Vertente do Lério	</li>
+<li>	Brejinho	</li>
+<li>	Granito	</li>
+<li>	Terezinha	</li>
+<li>	Quixaba	</li>
+<li>	Solidão	</li>
+<li>	Calumbi	</li>
+<li>	Itacuruba	</li>
+<li>	Ingazeira	</li>
+<li>	Fernando de Noronha	</li>
+		</random>(Pernambuco)
+	</template>
+</category>
+
+<category>
+	<pattern>LISTA0ANIMAIS</pattern>
+	<template>
+		<random>
+<li>	GATO	</li>
+<li>	GALINHA	</li>
+<li>	GATINHO	</li>
+<li>	CÃO	</li>
+<li>	ELEFANTE	</li>
+<li>	RÃ	</li>
+<li>	CACHORRO	</li>
+<li>	COELHO	</li>
+<li>	PÁSSARO	</li>
+<li>	CAVALO	</li>
+<li>	LEÃO	</li>
+<li>	CAMUNDONGO	</li>
+<li>	MACACO	</li>
+<li>	CORUJA	</li>
+<li>	TARTARUGA	</li>
+<li>	VACA	</li>
+<li>	COELHO	</li>
+<li>	PORCO	</li>
+<li>	LESMA	</li>
+<li>	COBRA	</li>
+<li>	SERPENTE	</li>
+<li>	TIGRE	</li>
+<li>	LOBO	</li>
+
+		</random>
+	</template>
+</category>
+</aiml>
+

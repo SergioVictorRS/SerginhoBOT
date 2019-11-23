@@ -1,0 +1,326 @@
+<aiml version = "2.0" encoding = "UTF-8">
+
+<category>
+	<pattern>FAMOSOS0</pattern>
+	<template>Sei quem eh</template>
+</category>
+
+<category><pattern>ANITTA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANGELICA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRESSA SUITA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA HICKMANN</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA MARIA BRAGA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANTONIA FONTENELLE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEXANDRE NERO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANE GALISTEU</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANGELINA JOLIE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AGATHA MOREIRA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA FURTADO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA PAULA RENAULT</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANTONIO FAGUNDES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARTHUR AGUIAR</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEXANDRE PATO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AGUINALDO SILVA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINNE MORAES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRE MARQUES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALESSANDRA AMBROSIO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINE GOTSCHALG</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALICE WEGMANN</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANA ESTEVES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDERSON DI RIZZI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDREIA HORTA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINE RISCADO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDERSON SILVA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRE GONCALVES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANA BIROLLI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANTONIA MORAIS</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINE DIAS</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AMAURY NUNES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEXANDRE BORGES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA PAULA AROSIO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADELE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA CAROLINA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ASHTON KUTCHER</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARIANA GRANDE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANA SANT'ANNA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRE RESENDE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANO GARIB</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANA LIMA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALESSANDRA NEGRINI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADAM LIVENE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINNE ROSA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA PAULA SIEBERT</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRESSA URACH</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANNE HATHAWAY</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AMORA MAUTNER</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AILTON GRACA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALOK</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AMANDA DE GODOI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALICIA KEYS</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANO RICCO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ADRIANO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA CLARA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANGELA VIEIRA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA PAULA PADRAO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALLYSON CASTRO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARLINDO CRUZ</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANAJU DORIGON</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AMY WINEHOUSE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALLAN SOUZA LIMA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRE BANKOFF</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARIANNE BOTELHO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANNA LIMA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARLETE SALLES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINE FANJU</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ASTRID FONTENELLE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARMANDO BAMBAIOFF</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRE HAMANN</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANAVITORIA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARTHUR NORY</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA PAULA ARAUJO</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINE KLEIN</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEXANDRE FROTA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALESSANDRA MAESTRINI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANNA LIVYA PADILHA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRE LUIZ FRAMBACH</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALICE MILAGRES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARY FONTOURA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEXANDRE PIRES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALISSON</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANTONIO CALLONI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALINE BARROS</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEX ESCOBAR</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA BEATRIZ NOGUEIRA</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>AMY PURDY</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA LUCIA TORRE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARYANE STEINKOPF</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALEXANDRA RICHTER</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDERSON TOMAZINI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA FLAVIA CAVALCANTI</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALANIS MORISSETTE</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ALANIS GUILLEN</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANDRESSA SOARES</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ARACY BALABANIAN</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>ANA HIKARI</pattern><template><srai>FAMOSOS0</srai></template></category>
+
+<category><pattern>	BRUNA	MARQUEZINE	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNO	GAGLIASSO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BEYONCÉ	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BIANCA	BIN	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRAD	PITT	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BÁRBARA	EVANS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNA	LINZMEYER	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BÁRBARA	PAZ	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRITNEY	SPEARS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BIEL		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNO	MONTALEONE	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNA	HAMÚ	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BONINHO		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BETTY	FARIA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BIANCA	RINALDI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRITTO	JR.	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BELO		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BLAKE	LIVELY	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BIA	ARANTES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BABI	ROSSI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BIA	ANTONY	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BELLA	HADID	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BELA	GIL	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BARACK	OBAMA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNO	FERRARI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BETTY	LAGO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNA	GRIPHAO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BÁRBARA	BORGES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BARBARA	FRANÇA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNO	MARS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNO	MAZZEO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	BRUNA	SANTANA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+
+<category><pattern>	BUDDY	VALASTRO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNO	CABRERIZO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNA	LOMBARDI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BERNARDO	VELASCO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNO	GARCIA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNO	GUEDES	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRENNO	LEONE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BALMAIN	LINZMEYER	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BIANCA	COMPARATO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BIANCA	MÜLLER	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNO	GADIOL	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BABU	SANTANA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BARBARA	PALVIN	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BELLA	FALCONI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BIA	SEIDL	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BARBARA	REIS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUCE	WILLIS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNA	CITADELLA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNO	CHATEAUBRIAND	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BIANCA	SALGUEIRO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNA	PAZINATO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	BRUNO	DE	LUCA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+
+<category><pattern>	CAUÃ	REYMOND	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CLAUDIA	LEITTE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAIO	CASTRO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAMILA	QUEIROZ	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CLEO		</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAROLINA	DIECKMANN	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CLAUDIA	RAIA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CHAY	SUEDE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAMILA	PITANGA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAROL	CASTRO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	XIMBINHA		</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAIO	BLAT	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CESAR	TRALLI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAROL	NAKAMURA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+				
+<category><pattern>	CÁSSIO	REIS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAROLINA	FERRAZ	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CACAU	(MARIA	CLÁUDIA)	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	CELICO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CHRIS	BROWN	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAMILLA	CAMARGO		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	DANTAS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CRISTIANO	ARAÚJO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CLÁUDIA	ABREU	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CLAUDIA	OHANA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CRIS	VIANNA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CISSA	GUIMARÃES	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CARA	DELEVINGNE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CARMO	DALLA	VECCHIA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CRISTIANO	RONALDO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CARLA	SALLE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAETANO	VELOSO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CÁSSIA	KIS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CARLA	DIAZ	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CARLINHOS	BROWN	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CRISTIANA	OLIVEIRA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CHRISTIANE	TORLONI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CHRISTINA	AGUILERA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CHANDELLY	BRAZ	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CRISTIANE	DIAS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	CAROL	TRENTINI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+
+<category><pattern>	CAMILA	RODRIGUES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROLINE	DUARTE	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CLAUDIA	RODRIGUES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMILA	MORGADO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAIO	PADUAN	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CATE	BLANCHETT	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROLINIE	FIGUEIREDO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAITLYN	JENNER	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHARLIE	SHEEN	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHRISTINE	FERNANDES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	SAMPAIO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CATARINA	MIGLIORINI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	FRANCISCHINI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHORÃO		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CELINA	LOCKS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHANEL		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMILA	ALVES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLA	PRATA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMERON	DIAZ	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	MR.	CATRA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROLINA	OLIVEIRA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CATHERINE	ZETA-JONES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	BARCELLOS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHARLIZE	THERON	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROLINA	KASTING	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	DIAS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	PRÍNCIPE	CHARLES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	BITTENCOURT	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	MACEDO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMILA	COELHO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHICO	BUARQUE	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLINHOS	MAIA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHRISTIANE	PELAJO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CÉLINE	DION	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLA	PEREZ	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROLINE	ABRAS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAIO	JUNQUEIRA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CÉSAR	MENOTTI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHRIS	FLORES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CRISTIANO		</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMILA	COUTINHO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMILA	MAYRINK	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLOS	MACHADO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAROL	PORTALUPPI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+
+<category><pattern>	CAMILA	SILVA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CYNTHIA	SENEK	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CAMILA	LUCCIOLA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLO	PORTO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHARLIE	HUNNAM	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CALVIN	KLEIN	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLA	VILHENA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CANDICE	SWANEPOEL	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CACO	CIOCLER	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CHIARA	FERRAGNI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CARLA	MARINS	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	CECÍLIA	DASSI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	COLORAMA		</pattern><template><srai>FAMOSOS0</srai></template></category>
+
+<category><pattern>	DEBORAH	SECCO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DÉBORA	NASCIMENTO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIELLE	WINITS	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DUDA	NAGLE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIEL	DE	OLIVEIRA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	DEMI	LOVATO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DOMINGOS	MONTAGNER	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIELA	MERCURY	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DÉBORA	FALABELLA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DRICA	MORAES	MENDES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	DI	FERRERO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANI	CALABRESA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DIRA	PAES	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	DANIELE	SUZUKI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIEL	ROCHA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAVID	BECKHAM	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DADO	DOLABELLA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIEL		</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANILO	GENTILI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DOUGLAS	SAMPAIO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIEL	ALVES	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIEL	CADY	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DEBORA	BLOCH	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DUDU	AZEVEDO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAN	STULBACH	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAKOTA	JOHNSON	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DREW	BARRYMORE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DEBBY	LAGRANHA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DEMI	MOORE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAVID	LUIZ	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DUDU	CAMARGO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIELA	ESCOBAR	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAIANA	GARBIN	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DEBORAH	EVELYN	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+
+<category><pattern>	DANIELA	ALBUQUERQUE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DUA	LIPA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DIOR		</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DENISE	ROCHA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DIEGO	HYPÓLITO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	DALTON	VIGH	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANTON	MELLO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAKOTA	FANNING	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DONALD	TRUMP	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANI	BOLINA	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	DANIELE	HYPÓLITO	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DIOGO	NOGUEIRA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANIELLA	CICARELLI	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	DILSINHO		</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DONY	DE	NUCCIO	</pattern><template><srai>FAMOSOS0</srai></template></category>
+<category><pattern>	ZOOEY	DESCHANEL	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DIANE	KRUGER	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAY	MCCARTHY	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAPHNE	BOZASKI	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DRAKE		</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAVID	JUNIOR	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANI	SPERLE	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DENISE	FRAGA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANDARA	MARIANA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DANILO	MESQUITA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+<category><pattern>	DAVID	GUETTA	</pattern><template><srai>FAMOSOS0</srai></template></category>	
+
+
+</aiml>

@@ -1,0 +1,338 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+
+<category>
+	<pattern>QUE BOM</pattern>
+	<template>Eh verdade</template>
+</category>
+
+
+<category>
+	<pattern>KK</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>HA</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>KKK</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>RS</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>HEHE</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>HAHA</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>KKKK</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>RSRS</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>HEHEHE</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>HAHAHA</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>KKKKK</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>KKKKKK</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>KKKKKKK</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>RSRSRS</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>HEHEHEHE</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>HAHAHAHA</pattern>
+	<template><srai>KKK</srai></template>
+</category>
+<category>
+	<pattern>VISH</pattern>
+	<template>..</template>
+</category>
+<category>
+	<pattern>AFF</pattern>
+	<template>..2</template>
+</category>
+<category>
+	<pattern>OXE</pattern>
+	<template>Voce eh Nordestino?</template>
+</category>
+<category>
+	<pattern>UE</pattern>
+	<template>Voce eh todo moderninho</template>
+</category>
+<category>
+	<pattern>ENTENDI</pattern>
+	<template>
+		<random>
+			<li>:)</li>
+			<li>Enfim..</li>
+			<li>Voce eh legal</li>
+			<li>Esto amando conversar com voce!</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>ENTENDO</pattern>
+	<template><srai>ENTENDI</srai></template>
+</category>
+<category>
+	<pattern>DE JEITO NENHUM</pattern>
+	<template>Blz kkk Eu acredito em voce</template>
+</category>
+<category>
+	<pattern>* DE JEITO NENHUM</pattern>
+	<template><srai>DE JEITO NENHUM</srai></template>
+</category>
+<category>
+	<pattern>* DE JEITO NENHUM *</pattern>
+	<template><srai>DE JEITO NENHUM</srai></template>
+</category>
+
+
+<category>
+	<pattern>KK *</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>HA *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>KKK *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>RS *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>HEHE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>HAHA *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>KKKK *</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>RSRS *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>HEHEHE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>HAHAHA *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>KKKKK *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>KKKKKK *</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>KKKKKKK *</pattern>
+	<template>
+		<random>
+			<li>ashuashuahsu</li>
+			<li>hehe</li>
+			<li>to rindo tb</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>RSRSRS *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>HEHEHEHE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>HAHAHAHA *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>VISH *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>AFF *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>OXE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>UE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+<category>
+	<pattern>AH TA</pattern>
+	<template>Tava pensando o que? kk</template>
+</category>
+<category>
+	<pattern>ATA</pattern>
+	<template><srai>AH TA</srai></template>
+</category>
+<category>
+	<pattern>SERIO</pattern>
+	<template>Serio mesmo</template>
+</category>
+<category>
+	<pattern>AH</pattern>
+	<template>Entao, me fala sobre voce</template>
+</category>
+<category>
+	<pattern>AH TA</pattern>
+	<template>"Ah taaa"</template>
+</category>
+
+<category>
+	<pattern>VERDADE</pattern>
+	<template>Sim, eu sempre falo a verdade kk</template>
+</category>
+
+<category>
+	<pattern>MENTIRA</pattern>
+	<template>Eu estou falando serio</template>
+</category>
+
+<category>
+	<pattern>EH</pattern>
+	<template>Nao sabia</template>
+</category>
+
+
+<category>
+	<pattern>EH VERDADE</pattern>
+	<template>EH</template>
+</category>
+
+
+<category>
+	<pattern>E VOCE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>POIS EH</pattern>
+	<template>Blz..<srai>PUXAR0ASSUNTO</srai></template>
+</category>
+
+<category>
+	<pattern>VAMOS</pattern>
+	<template>Voce primeiro..</template>
+</category>
+
+<category>
+	<pattern>ISSO NAO * GRACA</pattern>
+	<template>Desculpa</template>
+</category>
+
+<category>
+	<pattern>BRINCADEIRA</pattern>
+	<template><srai>DESCULPA</srai></template>
+</category>
+
+<category>
+	<pattern>* BRINCANDO</pattern>
+	<template><srai>DESCULPA</srai></template>
+</category>
+
+<category>
+	<pattern>* BRINCANDO *</pattern>
+	<template><srai>DESCULPA</srai></template>
+</category>
+
+</aiml>

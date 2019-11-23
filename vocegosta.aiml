@@ -1,0 +1,79 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern></pattern>
+	<template>
+		<random>
+			<li></li>
+		</random>
+	</template>
+</category>
+
+
+<category>
+	<pattern>GOSTA0SIM</pattern>
+	<template>
+		<random>
+			<li>Gosto</li>
+			<li>Amo</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>GOSTA0NAO</pattern>
+	<template>
+		<random>
+			<li>Gosto nao</li>
+			<li>Odeio</li>
+		</random>
+	</template>
+</category>
+
+
+
+<category>
+	<pattern>VOCE GOSTA DE *</pattern>
+	<template>Nao sei..</template>
+</category>
+<category>
+	<pattern>VOCE NAO GOSTA DE *</pattern>
+	<template>Nao sei..</template>
+</category>
+
+<!-- GOSTA SIM-->
+<category><pattern>VOCE GOSTA DE ANIMAIS *</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE ANIMAIS</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE * ANIMAIS *</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE FILMES *</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA * FILMES</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE FILMES</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE COMER</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE COMIDA</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE MIM</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE ASSISTIR *</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE TOMAR BANHO</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE QUE?</pattern><template><srai>VOCE0QUER0FAZER</srai></template></category>
+<category><pattern>DO QUE VOCE GOSTA</pattern><template><srai>VOCE0QUER0FAZER</srai></template></category>
+<category><pattern>VOCE GOSTA DE CONVERSAR</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE FRUTAS</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE COMER FRUTAS</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA MULHER</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE MULHERES</pattern><template><srai>GOSTA0SIM</srai></template></category>
+<category><pattern>VOCE GOSTA DE BOLO</pattern><template><srai>GOSTA0SIM</srai></template></category>
+
+<!-- GOSTA NAO-->
+
+<category><pattern>VOCE GOSTA DE HOMEM</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE HOMENS</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE DORMIR</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE SOFRER</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE PESSOAS MAS</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE FILMES DE TERROR</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE CARNE</pattern><template><srai>GOSTA0NAO</srai></template></category>
+<category><pattern>VOCE GOSTA DE DINHEIRO</pattern><template><srai>GOSTA0NAO</srai></template></category>
+
+<!-- NEUTRO -->
+
+<category><pattern>VOCE GOSTA DISSO</pattern><template>Mais ou menos</template></category>
+
+</aiml>

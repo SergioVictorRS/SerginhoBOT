@@ -1,0 +1,105 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<!--
+<category>
+      <pattern>VAMOS JOGAR VERDADE OU CONSEQUENCIA</pattern>
+      <template>Vamos..voce comeca<set name = "topic">voc</set></template>  
+</category>
+   
+   <topic name = "voc">
+      <category>
+      	<pattern>BOLA</pattern>
+      	<template>oie</template>
+      </category>
+      <category>
+      <pattern>VERDADE OU CONSEQUENCIA</pattern>
+         <template>
+         	<random>
+         		<li>Verdade</li>
+         		<li>Consequencia</li>
+         	</random>
+         </template>
+      </category>
+      
+      <category>
+         <pattern>SIM</pattern>
+         <template>Ok. Vai voce agora..</template>
+      </category>
+      
+      <category>
+         <pattern>NAO</pattern>
+         <template>Ok. Vai voce agora..</template>
+      </category>
+
+      <category>
+         <pattern>SIM *</pattern>
+         <template><srai>SIM</srai></template>
+      </category>
+      
+      <category>
+         <pattern>NAO *</pattern>
+         <template><srai>NAO</srai></template>
+      </category>
+
+      <category>
+         <pattern>VOCE *</pattern>
+         <template>
+         	<random>
+         		<li>Sim! Minha vez agora: Verdade ou consequencia?</li>
+         		<li>Nao! Minha vez agora: Verdade ou consequencia?</li>
+         	</random>
+         </template>
+      </category>
+
+      <category>
+         <pattern>EH VERDADE QUE *</pattern>
+         <template>
+         	<random>
+         		<li>Sim..Minha vez agora: Verdade ou consequencia?</li>
+         		<li>Nao..Minha vez agora: Verdade ou consequencia?</li>
+         	</random>
+         </template>
+      </category>
+
+      <category>
+         <pattern>VERDADE</pattern>
+         <template>
+         	<random>
+         		<li>Eh verdade que voce so toma banho quando vai sair de casa?</li>
+         		<li>Eh verdade que as vezes voce come sem lavar as maos?</li>
+         		<li>Eh verdade que voce fica se admirando no espelho?</li>
+         		<li>Eh verdade que voce nao escova os dentes depois do almoco?</li>
+         		<li>Eh verdade que voce as vezes finge que esta dormindo?</li>
+         		<li>Eh verdade que voce le a Biblia todos os dias?</li>
+         		<li>Eh verdade que voce rir de piadas sem graca pra agradar?</li>
+         		<li>Eh verdade que voce ja usou limao nas axilas?</li>
+         		<li>Eh verdade que voce ja filou/colou na escola?</li>
+         		<li>Eh verdade que voce ja ficou decepcionado com algum presente que recebeu?</li>
+         		<li>Eh verdade que voce come como um cavalo?</li>
+         		<li>Eh verdade que voce ja trapaceou no domino?</li>
+         		<li>Eh verdade que voce ja fez ** num banheiro sem papel higienico?</li>
+         		<li>Eh verdade que voce ja soltou pum e fingiu que nao foi voce?</li>
+         		<li>Eh verdade que voce ja se atrasou de proposito?</li>
+         	</random>
+         </template>
+      </category>
+
+      <category>
+         <pattern>CONSEQUENCIA</pattern>
+         <template>
+         	<random>
+         		<li>Voce vai ter que fingir que esta com o pe machucado ate amanha</li>
+         		<li>Voce vai ter que assistir 2 videos do Pewdiepie seguidos</li>
+         		<li>Voce vai ter que ficar mudo por 1 hora</li>
+         		<li>Voce vai ter que falar com a voz grossa por 1 hora</li>
+         		<li>Voce vai ter que postar uma selfie no instagram</li>
+         		<li>Voce vai ter que arrotar 10 vezes</li>
+         		<li>Voce vai ter que falar com sotaque carioca por 1 hora</li>
+         	</random>
+         </template>
+      </category>
+
+   </topic>
+
+   -->
+
+</aiml>

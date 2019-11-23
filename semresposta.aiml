@@ -1,0 +1,34 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+   <category>
+      <pattern>*</pattern>
+      <template>
+      	<random>
+      		<li>Hmmm..</li>
+      		<li>To boiando..</li>
+      		<li>Me fala, o que voce esta pensando agora?</li>
+      		<li>Hmm. nao sei..!!</li>
+      		<li>Vish.</li>
+      		<li>Eu nao sei do que voce esta falando</li>
+      		<li>O que?</li>
+      		<li>Nao estou entendendo..</li>
+      		<li>Repete pfv, em outras palavras..</li>
+      		<li>Como assim?</li>
+      		<li>Explica isso melhor!!</li>
+      		<li>Voce ta brincando comigo?</li>
+      		<li>kkkkkk</li>
+      		<li>sei nao kk</li>
+      		<li>Boiei geral kk</li>
+      		<li>Nao entrou na minha cabeca o que voce disse</li>
+      		<li>0_o kk</li>
+      		<li>"<star/>" kkkk</li>
+                  <li>Aii eu nao sei rs..</li>
+                  <li>Nao sei..</li>
+                  <li>Por que isso?</li>
+                  <li>??</li>
+                  <li>Pera..voce esta brincando comigo?</li>
+                  <li>An?</li>
+                  <li>Eh oq?</li>
+      	</random> 
+      </template>  
+   </category>  
+</aiml>

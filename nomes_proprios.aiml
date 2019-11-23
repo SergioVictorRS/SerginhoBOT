@@ -1,0 +1,160 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+<category>
+	<pattern>NOME0FEMININO</pattern>
+	<template>
+		<random>
+			<li>	Helena	</li>
+<li>	Alice	</li>
+<li>	Laura	</li>
+<li>	Manuela	</li>
+<li>	Valentina	</li>
+<li>	Sophia	</li>
+<li>	Isabella	</li>
+<li>	Heloísa	</li>
+<li>	Luiza	</li>
+<li>	Júlia	</li>
+<li>	Lorena	</li>
+<li>	Lívia	</li>
+<li>	Maria Luiza	</li>
+<li>	Cecília	</li>
+<li>	Eloá	</li>
+<li>	Giovanna	</li>
+<li>	Maria Clara	</li>
+<li>	Maria Eduarda	</li>
+<li>	Mariana	</li>
+<li>	Lara	</li>
+<li>	Beatriz	</li>
+<li>	Antonella	</li>
+<li>	Maria Júlia	</li>
+<li>	Emanuelly	</li>
+<li>	Isadora	</li>
+<li>	Ana Clara	</li>
+<li>	Melissa	</li>
+<li>	Ana Luiza	</li>
+<li>	Ana Júlia	</li>
+<li>	Esther	</li>
+<li>	Lavínia	</li>
+<li>	Maitê	</li>
+<li>	Maria Cecília	</li>
+<li>	Maria Alice	</li>
+<li>	Sarah	</li>
+<li>	Elisa	</li>
+<li>	Liz	</li>
+<li>	Yasmin	</li>
+<li>	Isabelly	</li>
+<li>	Alícia	</li>
+<li>	Clara	</li>
+<li>	Isis	</li>
+<li>	Rebeca	</li>
+<li>	Rafaela	</li>
+<li>	Marina	</li>
+<li>	Ana Laura	</li>
+<li>	Maria Helena	</li>
+<li>	Agatha	</li>
+<li>	Gabriela	</li>
+<li>	Catarina	</li>
+				</random>
+			</template>
+		</category>
+
+		<category>
+			<pattern>NOME0MASCULINO</pattern>
+			<template>
+				<random>
+
+<li>	Miguel	</li>
+<li>	Arthur	</li>
+<li>	Heitor	</li>
+<li>	Bernardo	</li>
+<li>	Davi	</li>
+<li>	Théo	</li>
+<li>	Lorenzo	</li>
+<li>	Gabriel	</li>
+<li>	Pedro	</li>
+<li>	Benjamin	</li>
+<li>	Matheus	</li>
+<li>	Lucas	</li>
+<li>	Nicolas	</li>
+<li>	Joaquim	</li>
+<li>	Samuel	</li>
+<li>	Henrique	</li>
+<li>	Rafael	</li>
+<li>	Guilherme	</li>
+<li>	Enzo	</li>
+<li>	Murilo	</li>
+<li>	Benício	</li>
+<li>	Gustavo	</li>
+<li>	Isaac	</li>
+<li>	João Miguel	</li>
+<li>	Lucca	</li>
+<li>	Enzo Gabriel	</li>
+<li>	Pedro Henrique	</li>
+<li>	Felipe	</li>
+<li>	João Pedro	</li>
+<li>	Pietro	</li>
+<li>	Anthony	</li>
+<li>	Daniel	</li>
+<li>	Bryan	</li>
+<li>	Davi Lucca	</li>
+<li>	Leonardo	</li>
+<li>	Vicente	</li>
+<li>	Eduardo	</li>
+<li>	Gael	</li>
+<li>	Antônio	</li>
+<li>	Vitor	</li>
+<li>	Noah	</li>
+<li>	Caio	</li>
+<li>	João	</li>
+<li>	Emanuel	</li>
+<li>	Cauã	</li>
+<li>	João Lucas	</li>
+<li>	Calebe	</li>
+<li>	Enrico	</li>
+<li>	Vinícius	</li>
+<li>	Bento	</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>NAME</pattern>
+	<template>
+		<random>
+			<li><srai>NOME0FEMININO</srai></li>
+			<li><srai>NOME0MASCULINO</srai></li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>* NOME</pattern>
+	<template><srai>NAME</srai></template>
+</category>
+
+<category>
+	<pattern>NOME</pattern>
+	<template><srai>NAME</srai></template>
+</category>
+
+<category>
+	<pattern>QUAL * NOME DA * NAMORADA</pattern>
+	<template>O nome dela eh MITSUKU</template>
+</category>
+
+<category>
+	<pattern>QUAL * NOME DO * NAMORADO</pattern>
+	<template>Seu namorado eh o <srai>NOME0MASCULINO</srai></template>
+</category>
+
+<category>
+	<pattern>QUAL * NOME DO *</pattern>
+	<template><srai>NOME0MASCULINO</srai></template>
+</category>
+
+
+<category>
+	<pattern>QUAL * NOME DA *</pattern>
+	<template><srai>NOME0FEMININO</srai></template>
+</category>
+
+</aiml>

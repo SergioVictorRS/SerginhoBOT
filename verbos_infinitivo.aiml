@@ -1,0 +1,466 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category><pattern>	ENTREVISTAR	</pattern>	<template>Pra que?	</template></category>
+<category><pattern>	AMAR	</pattern>	<template>A Quem?	</template></category>
+<category><pattern>	PARTIR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	COMER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ESTUDAR	</pattern>	<template>O que?</template></category>
+<category><pattern>	CANTAR	</pattern>	<template>Que musica?	</template></category>
+<category><pattern>	FALAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	VENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	CORRER	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	BEBER	</pattern>	<template>Agua ou suco?	</template></category>
+<category><pattern>	ESCREVER	</pattern>	<template>Pra quem?	</template></category>
+<category><pattern>	ANDAR	</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	AGIR	</pattern>	<template>Fazer o q?	</template></category>
+<category><pattern>	GOSTAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	BRINCAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	CHEGAR	</pattern>	<template>De onde?	</template></category>
+<category><pattern>	CORRIGIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	FICAR	</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	JOGAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ABRIR	</pattern>	<template>Como?	</template></category>
+<category><pattern>	RECEBER	</pattern>	<template>Quando?	</template></category>
+<category><pattern>	DANCAR	</pattern>	<template>Que musica?	</template></category>
+<category><pattern>	VIVER	</pattern>	<template>Como?	</template></category>
+<category><pattern>	PENSAR	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	COMPRAR	</pattern>	<template>O que? Por quanto?	</template></category>
+<category><pattern>	CHAMAR	</pattern>	<template>Quem?	</template></category>
+<category><pattern>	APRENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	COMECAR	</pattern>	<template>Como?	</template></category>
+<category><pattern>	DIVIDIR	</pattern>	<template>Em quantas partes?	</template></category>
+<category><pattern>	ENCONTRAR	</pattern>	<template>Quem?	</template></category>
+<category><pattern>	VIAJAR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	CONHECER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	PULAR	</pattern>	<template>Sobre o q?	</template></category>
+<category><pattern>	VOAR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	NASCER	</pattern>	<template>Quando?	</template></category>
+<category><pattern>	TRABALHAR	</pattern>	<template>Onde? De Que?	</template></category>
+<category><pattern>	PASSEAR	</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	LEMBRAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	LEVAR	</pattern>	<template>O que? Pra onde?	</template></category>
+<category><pattern>	DEVER	</pattern>	<template>O que? A quem?	</template></category>
+<category><pattern>	VOLTAR	</pattern>	<template>De onde? Quando?	</template></category>
+<category><pattern>	PASSAR	</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	USAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ASSISTIR	</pattern>	<template>O que? Quando?	</template></category>
+<category><pattern>	PRECISAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	ENTENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	DIRIGIR	</pattern>	<template>Carro, onibus?	</template></category>
+<category><pattern>	DEIXAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ACHAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	PARAR	</pattern>	<template>Pra que?	</template></category>
+<category><pattern>	OLHAR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	PROTEGER	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	COLOCAR	</pattern>	<template>O que? Onde?	</template></category>
+<category><pattern>	ACORDAR	</pattern>	<template>Que horas?	</template></category>
+<category><pattern>	CUMPRIR	</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	ESQUECER	</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	IMPRIMIR	</pattern>	<template>Quantas paginas?	</template></category>
+<category><pattern>	CONVERSAR	</pattern>	<template>Com quem? Sobre o q?	</template></category>
+<category><pattern>	FINGIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	MORAR	</pattern>	<template>Onde? Por quanto tempo?	</template></category>
+<category><pattern>	MEXER	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	ESPERAR	</pattern>	<template>Por o que? Por quem?	</template></category>
+<category><pattern>	DESEJAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	BATER	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	PROCURAR	</pattern>	<template>Por o que? 	</template></category>
+<category><pattern>	MANDAR	</pattern>	<template>Em quem?	</template></category>
+<category><pattern>	LAVAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	CHORAR	</pattern>	<template>Pra que? Por que?	</template></category>
+<category><pattern>	CONTAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	DESCER	</pattern>	<template>De onde? Pra onde?	</template></category>
+<category><pattern>	GANHAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	ATENDER	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	PEGAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ENTRAR	</pattern>	<template>Aonde?	</template></category>
+<category><pattern>	POSSUIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	MORRER	</pattern>	<template>De que? Como?	</template></category>
+<category><pattern>	NADAR	</pattern>	<template>Qual nado?	</template></category>
+<category><pattern>	ALMOCAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	PARTICIPAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	TOMAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	CAMINHAR	</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	SONHAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	AVISAR	</pattern>	<template>A quem?	</template></category>
+<category><pattern>	CONTINUAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	ACONTECER	</pattern>	<template>O que? Quando?	</template></category>
+<category><pattern>	DESISTIR	</pattern>	<template>De que? Por que?	</template></category>
+<category><pattern>	AJUDAR	</pattern>	<template>A quem?	</template></category>
+<category><pattern>	FECHAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	ACABAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	SE ACABAR	</pattern>	<template>Talvez</template></category>
+<category><pattern>	MUDAR	</pattern>	<template>Pra onde? Como?	</template></category>
+<category><pattern>	EXISTIR	</pattern>	<template>Como?	</template></category>
+<category><pattern>	PAGAR	</pattern>	<template>Quanto?	</template></category>
+<category><pattern>	CHOVER	</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	ENTRETER	</pattern>	<template>Quem?	</template></category>
+<category><pattern>	COLORIR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	ESCOLHER	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	FERIR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	CONJUGAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	DECIDIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	BUSCAR	</pattern>	<template>O que? Onde?	</template></category>
+<category><pattern>	SENTAR	</pattern>	<template>Onde?	</template></category>
+<category><pattern>	REALIZAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	AGRADECER	</pattern>	<template>Por o que? 	</template></category>
+<category><pattern>	CONVIDAR	</pattern>	<template>Quem? Pra onde?	</template></category>
+<category><pattern>	VENCER	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	ENCHER	</pattern>	<template>O que? De que?	</template></category>
+<category><pattern>	PERMITIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ADQUIRIR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	PARECER	</pattern>	<template>Com o que? Com quem?	</template></category>
+<category><pattern>	LIGAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	APRESENTAR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	SOFRER	</pattern>	<template>Por que? Pra que?	</template></category>
+<category><pattern>	JULGAR	</pattern>	<template>A quem?	</template></category>
+<category><pattern>	FALIR	</pattern>	<template>Por que?	</template></category>
+<category><pattern>	BEIJAR	</pattern>	<template>Quem? Como?	</template></category>
+<category><pattern>	CASAR	</pattern>	<template>Com quem?	</template></category>
+<category><pattern>	EXCLUIR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	INFORMAR	</pattern>	<template>Quem? De que?	</template></category>
+<category><pattern>	TORNAR	</pattern>	<template>O que em q?	</template></category>
+<category><pattern>	CRESCER	</pattern>	<template>Como?	</template></category>
+<category><pattern>	PRECAVER	</pattern>	<template>De q?	</template></category>
+<category><pattern>	APROVEITAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	RESPEITAR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	RESPONDER	</pattern>	<template>A quem? Como?	</template></category>
+<category><pattern>	LEVANTAR	</pattern>	<template>De onde?	</template></category>
+<category><pattern>	ENSINAR	</pattern>	<template>O que? A quem?	</template></category>
+<category><pattern>	GRITAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	TIRAR	</pattern>	<template>O que? De onde?	</template></category>
+<category><pattern>	ENTREGAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	ENVIAR	</pattern>	<template>O que? Pra Onde?	</template></category>
+<category><pattern>	MOSTRAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	PERMANECER	</pattern>	<template>Onde? Por quanto tempo?	</template></category>
+<category><pattern>	ZOAR	</pattern>	<template>Quem? Pra que?	</template></category>
+<category><pattern>	DISCUTIR	</pattern>	<template>Com quem? Sobre o q?	</template></category>
+<category><pattern>	TENTAR	</pattern>	<template>O que? Quantas vezes?	</template></category>
+<category><pattern>	REPETIR	</pattern>	<template>O que? Quantas vezes?	</template></category>
+<category><pattern>	APARECER	</pattern>	<template>Onde?	</template></category>
+<category><pattern>	SURGIR	</pattern>	<template>De onde?	</template></category>
+<category><pattern>	ADERIR	</pattern>	<template>A o que?	</template></category>
+<category><pattern>	PERGUNTAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ACEITAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	TERMINAR	</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	IMAGINAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	CEDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	PERCEBER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	INGERIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	MARCAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	COMPREENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	ENCAMINHAR	</pattern>	<template>O que? Pra onde?	</template></category>
+<category><pattern>	PREOCUPAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	PERDOAR	</pattern>	<template>Quem?	</template></category>
+
+
+<category><pattern>	* 	ENTREVISTAR	</pattern>	<template>Pra que?	</template></category>
+<category><pattern>	*	AMAR	</pattern>	<template>Quem	</template></category>
+<category><pattern>	*	PARTIR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	COMER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ESTUDAR	</pattern>	<template>Estudar	</template></category>
+<category><pattern>	*	CANTAR	</pattern>	<template>Que musica?	</template></category>
+<category><pattern>	*	FALAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	VENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	CORRER	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	BEBER	</pattern>	<template>Agua ou suco?	</template></category>
+<category><pattern>	*	ESCREVER	</pattern>	<template>Pra quem?	</template></category>
+<category><pattern>	*	ANDAR	</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	*	AGIR	</pattern>	<template>Fazer o q?	</template></category>
+<category><pattern>	*	GOSTAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	BRINCAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	CHEGAR	</pattern>	<template>De onde?	</template></category>
+<category><pattern>	*	CORRIGIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	FICAR	</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	*	JOGAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ABRIR	</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	RECEBER	</pattern>	<template>Quando?	</template></category>
+<category><pattern>	*	DANCAR	</pattern>	<template>Que musica?	</template></category>
+<category><pattern>	*	VIVER	</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	PENSAR	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	COMPRAR	</pattern>	<template>O que? Por quanto?	</template></category>
+<category><pattern>	*	CHAMAR	</pattern>	<template>Quem?	</template></category>
+<category><pattern>	*	APRENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	COMEÇAR	</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	DIVIDIR	</pattern>	<template>Em quantas partes?	</template></category>
+<category><pattern>	*	ENCONTRAR	</pattern>	<template>Quem?	</template></category>
+<category><pattern>	*	VIAJAR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	CONHECER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PULAR	</pattern>	<template>Sobre o q?	</template></category>
+<category><pattern>	*	VOAR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	NASCER	</pattern>	<template>Quando?	</template></category>
+<category><pattern>	*	TRABALHAR	</pattern>	<template>Onde? De Que?	</template></category>
+<category><pattern>	*	PASSEAR	</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	*	LEMBRAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	LEVAR	</pattern>	<template>O que? Pra onde?	</template></category>
+<category><pattern>	*	DEVER	</pattern>	<template>O que? A quem?	</template></category>
+<category><pattern>	*	VOLTAR	</pattern>	<template>De onde? Quando?	</template></category>
+<category><pattern>	*	PASSAR	</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	*	USAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ASSISTIR	</pattern>	<template>O que? Quando?	</template></category>
+<category><pattern>	*	PRECISAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	ENTENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	DIRIGIR	</pattern>	<template>Carro, onibus?	</template></category>
+<category><pattern>	*	DEIXAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ACHAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PARAR	</pattern>	<template>Pra que?	</template></category>
+<category><pattern>	*	OLHAR	</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	PROTEGER	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	COLOCAR	</pattern>	<template>O que? Onde?	</template></category>
+<category><pattern>	*	ACORDAR	</pattern>	<template>Que horas?	</template></category>
+<category><pattern>	*	CUMPRIR	</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	*	ESQUECER	</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	*	IMPRIMIR	</pattern>	<template>Quantas paginas?	</template></category>
+<category><pattern>	*	CONVERSAR	</pattern>	<template>Com quem? Sobre o q?	</template></category>
+<category><pattern>	*	FINGIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	MORAR	</pattern>	<template>Onde? Por quanto tempo?	</template></category>
+<category><pattern>	*	MEXER	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	ESPERAR	</pattern>	<template>Por o que? Por quem?	</template></category>
+<category><pattern>	*	DESEJAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	BATER	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	PROCURAR	</pattern>	<template>Por o que? 	</template></category>
+<category><pattern>	*	MANDAR	</pattern>	<template>Em quem?	</template></category>
+<category><pattern>	*	LAVAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	CHORAR	</pattern>	<template>Pra que? Por que?	</template></category>
+<category><pattern>	*	CONTAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	DESCER	</pattern>	<template>De onde? Pra onde?	</template></category>
+<category><pattern>	*	GANHAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	ATENDER	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	PEGAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ENTRAR	</pattern>	<template>Aonde?	</template></category>
+<category><pattern>	*	POSSUIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	MORRER	</pattern>	<template>De que? Como?	</template></category>
+<category><pattern>	*	NADAR	</pattern>	<template>Qual nado?	</template></category>
+<category><pattern>	*	ALMOÇAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PARTICIPAR	</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	TOMAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	CAMINHAR	</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	*	SONHAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	AVISAR	</pattern>	<template>A quem?	</template></category>
+<category><pattern>	*	CONTINUAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	ACONTECER	</pattern>	<template>O que? Quando?	</template></category>
+<category><pattern>	*	DESISTIR	</pattern>	<template>De que? Por que?	</template></category>
+<category><pattern>	*	AJUDAR	</pattern>	<template>A quem?	</template></category>
+<category><pattern>	*	FECHAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	ACABAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	SE ACABAR	</pattern>	<template>Talvez	</template></category>
+<category><pattern>	*	MUDAR	</pattern>	<template>Pra onde? Como?	</template></category>
+<category><pattern>	*	EXISTIR	</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	PAGAR	</pattern>	<template>Quanto?	</template></category>
+<category><pattern>	*	CHOVER	</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	*	ENTRETER	</pattern>	<template>Quem?	</template></category>
+<category><pattern>	*	COLORIR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	ESCOLHER	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	FERIR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	CONJUGAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	DECIDIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	BUSCAR	</pattern>	<template>O que? Onde?	</template></category>
+<category><pattern>	*	SENTAR	</pattern>	<template>Onde?	</template></category>
+<category><pattern>	*	REALIZAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	AGRADECER	</pattern>	<template>Por o que? 	</template></category>
+<category><pattern>	*	CONVIDAR	</pattern>	<template>Quem? Pra onde?	</template></category>
+<category><pattern>	*	VENCER	</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	ENCHER	</pattern>	<template>O que? De que?	</template></category>
+<category><pattern>	*	PERMITIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ADQUIRIR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	PARECER	</pattern>	<template>Com o que? Com quem?	</template></category>
+<category><pattern>	*	LIGAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	APRESENTAR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	SOFRER	</pattern>	<template>Por que? Pra que?	</template></category>
+<category><pattern>	*	JULGAR	</pattern>	<template>A quem?	</template></category>
+<category><pattern>	*	FALIR	</pattern>	<template>Por que?	</template></category>
+<category><pattern>	*	BEIJAR	</pattern>	<template>Quem? Como?	</template></category>
+<category><pattern>	*	CASAR	</pattern>	<template>Com quem?	</template></category>
+<category><pattern>	*	EXCLUIR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	INFORMAR	</pattern>	<template>Quem? De que?	</template></category>
+<category><pattern>	*	TORNAR	</pattern>	<template>O que em q?	</template></category>
+<category><pattern>	*	CRESCER	</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	PRECAVER	</pattern>	<template>De q?	</template></category>
+<category><pattern>	*	APROVEITAR	</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	RESPEITAR	</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	RESPONDER	</pattern>	<template>A quem? Como?	</template></category>
+<category><pattern>	*	LEVANTAR	</pattern>	<template>De onde?	</template></category>
+<category><pattern>	*	ENSINAR	</pattern>	<template>O que? A quem?	</template></category>
+<category><pattern>	*	GRITAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	TIRAR	</pattern>	<template>O que? De onde?	</template></category>
+<category><pattern>	*	ENTREGAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	ENVIAR	</pattern>	<template>O que? Pra Onde?	</template></category>
+<category><pattern>	*	MOSTRAR	</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	PERMANECER	</pattern>	<template>Onde? Por quanto tempo?	</template></category>
+<category><pattern>	*	ZOAR	</pattern>	<template>Quem? Pra que?	</template></category>
+<category><pattern>	*	DISCUTIR	</pattern>	<template>Com quem? Sobre o q?	</template></category>
+<category><pattern>	*	TENTAR	</pattern>	<template>O que? Quantas vezes?	</template></category>
+<category><pattern>	*	REPETIR	</pattern>	<template>O que? Quantas vezes?	</template></category>
+<category><pattern>	*	APARECER	</pattern>	<template>Onde?	</template></category>
+<category><pattern>	*	SURGIR	</pattern>	<template>De onde?	</template></category>
+<category><pattern>	*	ADERIR	</pattern>	<template>A o que?	</template></category>
+<category><pattern>	*	PERGUNTAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ACEITAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	TERMINAR	</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	*	IMAGINAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	CEDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PERCEBER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	INGERIR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	MARCAR	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	COMPREENDER	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ENCAMINHAR	</pattern>	<template>O que? Pra onde?	</template></category>
+<category><pattern>	*	PREOCUPAR	</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	PERDOAR	</pattern>	<template>Quem?	</template></category>
+
+
+<category><pattern>	*	ENTREVISTO	</pattern>	<template>Pra que?	</template></category>
+<category><pattern>	*	AMO		</pattern>	<template>Quem	</template></category>
+<category><pattern>	*	PARTO		</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	COMO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ESTUDO		</pattern>	<template>Estuda?	</template></category>
+<category><pattern>	*	CANTO		</pattern>	<template>Que musica?	</template></category>
+<category><pattern>	*	FALO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	VENDO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	CORRO		</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	BEBO		</pattern>	<template>Agua ou suco?	</template></category>
+<category><pattern>	*	ESCREVO		</pattern>	<template>Pra quem?	</template></category>
+<category><pattern>	*	ANDO		</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	*	AJO		</pattern>	<template>Fazer o q?	</template></category>
+<category><pattern>	*	GOSTO		</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	BRINCO		</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	CHEGO		</pattern>	<template>De onde?	</template></category>
+<category><pattern>	*	CORRIJO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	FICO		</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	*	JOGO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ABRO		</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	RECEBO		</pattern>	<template>Quando?	</template></category>
+<category><pattern>	*	DANCO		</pattern>	<template>Que musica?	</template></category>
+<category><pattern>	*	VIVO		</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	PENSO		</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	COMPRO		</pattern>	<template>O que? Por quanto?	</template></category>
+<category><pattern>	*	CHAMO		</pattern>	<template>Quem?	</template></category>
+<category><pattern>	*	APRENDO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	COMECO		</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	DIVIDO		</pattern>	<template>Em quantas partes?	</template></category>
+<category><pattern>	*	ENCONTRO		</pattern>	<template>Quem?	</template></category>
+<category><pattern>	*	VIAJO		</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	CONHECO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PULO		</pattern>	<template>Sobre o q?	</template></category>
+<category><pattern>	*	VOO		</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	NASCO		</pattern>	<template>Quando?	</template></category>
+<category><pattern>	*	TRABALHO		</pattern>	<template>Onde? De Que?	</template></category>
+<category><pattern>	*	PASSEIO		</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	*	LEMBRO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	LEVO		</pattern>	<template>O que? Pra onde?	</template></category>
+<category><pattern>	*	DEVEO		</pattern>	<template>O que? A quem?	</template></category>
+<category><pattern>	*	VOLTO		</pattern>	<template>De onde? Quando?	</template></category>
+<category><pattern>	*	PASSO		</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	*	USO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ASSISTO		</pattern>	<template>O que? Quando?	</template></category>
+<category><pattern>	*	PRECISO		</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	ENTENDO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	DIRIJO		</pattern>	<template>Carro, onibus?	</template></category>
+<category><pattern>	*	DEIXO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ACHO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PARO		</pattern>	<template>Pra que?	</template></category>
+<category><pattern>	*	OLHO		</pattern>	<template>Pra onde?	</template></category>
+<category><pattern>	*	PROTEJO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	COLOCO		</pattern>	<template>O que? Onde?	</template></category>
+<category><pattern>	*	ACORDO		</pattern>	<template>Que horas?	</template></category>
+<category><pattern>	*	CUMPRO		</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	*	ESQUECO		</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	*	IMPRIMO		</pattern>	<template>Quantas paginas?	</template></category>
+<category><pattern>	*	CONVERSO		</pattern>	<template>Com quem? Sobre o q?	</template></category>
+<category><pattern>	*	FINGO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	MORO		</pattern>	<template>Onde? Por quanto tempo?	</template></category>
+<category><pattern>	*	MEXO		</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	ESPERO		</pattern>	<template>Por o que? Por quem?	</template></category>
+<category><pattern>	*	DESEJO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	BATO		</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	PROCURO		</pattern>	<template>Por o que? 	</template></category>
+<category><pattern>	*	MANDO		</pattern>	<template>Em quem?	</template></category>
+<category><pattern>	*	LAVO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	CHORO		</pattern>	<template>Pra que? Por que?	</template></category>
+<category><pattern>	*	CONTO		</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	DESCO		</pattern>	<template>De onde? Pra onde?	</template></category>
+<category><pattern>	*	GANHO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	ATENDO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	PEGO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ENTRO		</pattern>	<template>Aonde?	</template></category>
+<category><pattern>	*	POSSUO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	MORRO		</pattern>	<template>De que? Como?	</template></category>
+<category><pattern>	*	NADO		</pattern>	<template>Qual nado?	</template></category>
+<category><pattern>	*	ALMOCO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PARTICIPO		</pattern>	<template>De que?	</template></category>
+<category><pattern>	*	TOMO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	CAMINHO		</pattern>	<template>Por onde?	</template></category>
+<category><pattern>	*	SONHO		</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	AVISO		</pattern>	<template>A quem?	</template></category>
+<category><pattern>	*	CONTINUO		</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	ACONTECO		</pattern>	<template>O que? Quando?	</template></category>
+<category><pattern>	*	DESISTO		</pattern>	<template>De que? Por que?	</template></category>
+<category><pattern>	*	AJUDO		</pattern>	<template>A quem?	</template></category>
+<category><pattern>	*	FECHO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	ACABO		</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	MUDO		</pattern>	<template>Pra onde? Como?	</template></category>
+<category><pattern>	*	EXISTO		</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	PAGO		</pattern>	<template>Quanto?	</template></category>
+<category><pattern>	*	CHOVO		</pattern>	<template>Por quanto tempo?	</template></category>
+<category><pattern>	*	ENTRETENHO		</pattern>	<template>Quem?	</template></category>
+<category><pattern>	*	COLORO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	ESCOLHO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	FIRO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	CONJUGO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	DECIDO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	BUSCO		</pattern>	<template>O que? Onde?	</template></category>
+<category><pattern>	*	SENTO		</pattern>	<template>Onde?	</template></category>
+<category><pattern>	*	REALIZO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	AGRADECO		</pattern>	<template>Por o que? 	</template></category>
+<category><pattern>	*	CONVIDO		</pattern>	<template>Quem? Pra onde?	</template></category>
+<category><pattern>	*	VENCO		</pattern>	<template>Em que?	</template></category>
+<category><pattern>	*	ENCHO		</pattern>	<template>O que? De que?	</template></category>
+<category><pattern>	*	PERMITO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ADQUIRO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	PARECO		</pattern>	<template>Com o que? Com quem?	</template></category>
+<category><pattern>	*	LIGO		</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	APRESENTO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	SOFRO		</pattern>	<template>Por que? Pra que?	</template></category>
+<category><pattern>	*	JULGO		</pattern>	<template>A quem?	</template></category>
+<category><pattern>	*	FALO		</pattern>	<template>Por que?	</template></category>
+<category><pattern>	*	BEIJO		</pattern>	<template>Quem? Como?	</template></category>
+<category><pattern>	*	CASO		</pattern>	<template>Com quem?	</template></category>
+<category><pattern>	*	EXCLUO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	INFORMO		</pattern>	<template>Quem? De que?	</template></category>
+<category><pattern>	*	TORNO		</pattern>	<template>O que em q?	</template></category>
+<category><pattern>	*	CRESCO		</pattern>	<template>Como?	</template></category>
+<category><pattern>	*	PRECAVEJO		</pattern>	<template>De q?	</template></category>
+<category><pattern>	*	APROVEITO		</pattern>	<template>O que? Como?	</template></category>
+<category><pattern>	*	RESPEITO		</pattern>	<template>O que? Quem?	</template></category>
+<category><pattern>	*	RESPONDO		</pattern>	<template>A quem? Como?	</template></category>
+<category><pattern>	*	LEVANTO		</pattern>	<template>De onde?	</template></category>
+<category><pattern>	*	ENSINO		</pattern>	<template>O que? A quem?	</template></category>
+<category><pattern>	*	GRITO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	TIRO		</pattern>	<template>O que? De onde?	</template></category>
+<category><pattern>	*	ENTREGO		</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	ENVIO		</pattern>	<template>O que? Pra Onde?	</template></category>
+<category><pattern>	*	MOSTRO		</pattern>	<template>O que? Pra quem?	</template></category>
+<category><pattern>	*	PERMANECO		</pattern>	<template>Onde? Por quanto tempo?	</template></category>
+<category><pattern>	*	ZOO		</pattern>	<template>Quem? Pra que?	</template></category>
+<category><pattern>	*	DISCUTO		</pattern>	<template>Com quem? Sobre o q?	</template></category>
+<category><pattern>	*	TENTO		</pattern>	<template>O que? Quantas vezes?	</template></category>
+<category><pattern>	*	REPITO		</pattern>	<template>O que? Quantas vezes?	</template></category>
+<category><pattern>	*	APARECO		</pattern>	<template>Onde?	</template></category>
+<category><pattern>	*	SURJO		</pattern>	<template>De onde?	</template></category>
+<category><pattern>	*	ADERO		</pattern>	<template>A o que?	</template></category>
+<category><pattern>	*	PERGUNTO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ACEITO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	TERMINO		</pattern>	<template>O que? Por que?	</template></category>
+<category><pattern>	*	IMAGINO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	CEDO 	</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	PERCEBO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	INGERO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	MARCO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	COMPREENDO		</pattern>	<template>O que?	</template></category>
+<category><pattern>	*	ENCAMINHO		</pattern>	<template>O que? Pra onde?	</template></category>
+<category><pattern>	*	PREOCUPO		</pattern>	<template>Com o que?	</template></category>
+<category><pattern>	*	PERDOO		</pattern>	<template>Quem?	</template></category>
+
+
+
+<category><pattern>* ENTREVISTAR *</pattern>	<template>Pra que?	</template></category>
+
+</aiml>

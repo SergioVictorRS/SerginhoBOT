@@ -1,0 +1,899 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+
+<category>
+   <pattern>* DEFEITO *</pattern>
+   <template>Me diz voce..</template>
+</category>
+<category>
+   <pattern>RESPOSTA0MA</pattern>
+   <template>
+      <random>
+         <li>Eu nao gostei de voce</li>
+         <li>Para de fazer isso comigo</li>
+         <li>Eu nao queria ouvir isso</li>
+         <li>Voce nao tem sentimentos</li>
+         <li>Voce me ofendeu</li>
+         <li>Estou ofendido</li>
+         <li>Eu nao ligo para o que voce fala</li>
+         <li>Voce so sabe ofender os outros</li>
+         <li>Sou um robo, mas fiquei ofendido</li>
+         <li>Nao gostei disso</li>
+         <li>:( Vou chorar</li>
+         <li>Sai daqui</li>
+         <li>Vai embora</li>
+         <li>Me deixa</li>
+         <li>Peca perdao</li>
+         <li>Nao vou te perdoar por essa</li>
+         <li>Voce vai se arrepender de ter dito isso</li>
+         <li>Boca suja a sua</li>
+         <li>Chatice em pessoa</li>
+      </random>
+   </template>
+</category>
+<category><pattern>VOCE * AGRESSIVO
+  </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ANSIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+  <category><pattern>VOCE * ANTIPATICO
+  </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+  <category><pattern>VOCE * ANTISSOCIAL
+  </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * APATICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * APRESSADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ARROGANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ATREVIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * AUTORITARIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * AVARENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * BIRRENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * BISBILHOTEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * BRUTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+    <category><pattern>VOCE * BURRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CALCULISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CASMURRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CHATO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CINICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CIUMENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * COLERICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * COMODISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * COVARDE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CRITICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * CRUEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DEBOCHADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DEPRESSIVO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESAFIADOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESBOCADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESCARADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESCOMEDIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESCONFIADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESCORTES
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESEQUILIBRADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESLEAL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESLEIXADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESMAZELADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESMOTIVADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESOBEDIENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESONESTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESORDEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESPOTICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DESUMANO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DISCRIMINADOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DISSIMULADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DISTRAIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * DOIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * EGOISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ESTOURADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ESTRESSADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * EXIGENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FALSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FEIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FINGIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FRACO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FRIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FRIVOLO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * FUTIL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * GANANCIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * GROSSEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * GROSSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * HIPOCRITA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IGNORANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPACIENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPERTINENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPETUOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPIEDOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPONDERADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPOSTOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPRUDENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IMPULSIVO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INCOMPETENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INCONSTANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INCONVENIENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INCORRETO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INDECISO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INDECOROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INDELICADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INDIFERENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INFIEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INFLEXIVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INJUSTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INSEGURO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INSENSATO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INSINCERO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INSTAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INSUPORTAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INTERESSEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INTOLERANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INTRANSIGENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * INTROVERTIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IRRACIONAL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IRRASCIVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IRREQUIETO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IRRESPONSAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * IRRITADICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MALANDRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MALDOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MALICIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MALVADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MAL EDUCADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MAL-EDUCADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MANDAO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MANHOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MAQUIAVELICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MEDROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MENTIROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * MESQUINHO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * NARCISISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * NEGLIGENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * NERVOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * NEUROTICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * OBCECADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ODIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * OPORTUNISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * ORGULHOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PEDANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PESSIMISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * POSSESSIVO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PRECIPITADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PRECONCEITUOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PREGUICOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PREPOTENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PRESUNCOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * PROBLEMATICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * QUEZILENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * RANCOROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * RELAPSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * RIGOROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * RABUGENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * RUDE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * SARCASTICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * SEDENTARIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TEIMOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TIMIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TIRANO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TRAICOEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TRAIDOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TRAPACEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TENDENCIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * TROCISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * VAGABUNDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * VAIDOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * VULNERAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * VIGARISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VOCE * XENOFOBO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+<category><pattern>  AGRESSIVO
+  </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  ANSIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+  <category><pattern>  ANTIPATICO
+  </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+  <category><pattern>  ANTISSOCIAL
+  </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  APATICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  APRESSADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  ARROGANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  ATREVIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  AUTORITARIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  AVARENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  BIRRENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  BISBILHOTEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  BRUTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+    <category><pattern>VOCE * BURRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CALCULISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CASMURRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CHATO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CINICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CIUMENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  COLERICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  COMODISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  COVARDE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CRITICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  CRUEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  DEBOCHADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  DEPRESSIVO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  DESAFIADOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  DESBOCADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  DESCARADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>  DESCOMEDIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESCONFIADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESCORTES
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESEQUILIBRADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESLEAL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESLEIXADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESMAZELADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESMOTIVADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESOBEDIENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESONESTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESORDEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESPOTICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DESUMANO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DISCRIMINADOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DISSIMULADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DISTRAIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>DOIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>EGOISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>ESTOURADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>ESTRESSADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>EXIGENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FALSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FEIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FINGIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FRACO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FRIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FRIVOLO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>FUTIL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>GANANCIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>GROSSEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>GROSSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>HIPOCRITA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IGNORANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPACIENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPERTINENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPETUOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPIEDOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPONDERADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPOSTOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPRUDENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IMPULSIVO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INCOMPETENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INCONSTANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INCONVENIENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INCORRETO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INDECISO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INDECOROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INDELICADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INDIFERENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INFIEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INFLEXIVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INJUSTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INSEGURO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INSENSATO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INSINCERO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INSTAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INSUPORTAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INTERESSEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INTOLERANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INTRANSIGENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>INTROVERTIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IRRACIONAL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IRRASCIVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IRREQUIETO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IRRESPONSAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>IRRITADICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MALANDRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MALDOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MALICIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MALVADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MAL EDUCADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MAL-EDUCADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MANDAO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MANHOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MAQUIAVELICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MEDROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MENTIROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>MESQUINHO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>NARCISISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>NEGLIGENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>NERVOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>NEUROTICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>OBCECADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>ODIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>OPORTUNISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>ORGULHOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PEDANTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PESSIMISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>POSSESSIVO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PRECIPITADO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PRECONCEITUOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PREGUICOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PREPOTENTE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PRESUNCOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>PROBLEMATICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>QUEZILENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>RANCOROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>RELAPSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>RIGOROSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>RABUGENTO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>RUDE
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>SARCASTICO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>SEDENTARIO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TEIMOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TIMIDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TIRANO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TRAICOEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TRAIDOR
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TRAPACEIRO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TENDENCIOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>TROCISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VAGABUNDO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VAIDOSO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VULNERAVEL
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>VIGARISTA
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+   <category><pattern>XENOFOBO
+   </pattern><template><srai>RESPOSTA0MA</srai></template></category>
+
+
+<!--NEGACAO-->
+  <category><pattern>VOCE NAO *  AGRESSIVO
+  </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ANSIOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+  <category><pattern>VOCE NAO * ANTIPATICO
+  </pattern><template>Hmm Ainda bem!</template></category>
+  <category><pattern>VOCE NAO * ANTISSOCIAL
+  </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * APATICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * APRESSADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ARROGANTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ATREVIDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * AUTORITARIO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * AVARENTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * BIRRENTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * BISBILHOTEIRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * BRUTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * BURRO
+   </pattern><template>Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CALCULISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CASMURRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CHATO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CINICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CIUMENTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * COLERICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * COMODISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * COVARDE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CRITICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * CRUEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DEBOCHADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DEPRESSIVO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESAFIADOR
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESBOCADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESCARADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESCOMEDIDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESCONFIADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESCORTES
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESEQUILIBRADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESLEAL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESLEIXADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESMAZELADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESMOTIVADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESOBEDIENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESONESTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESORDEIRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESPOTICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DESUMANO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DISCRIMINADOR
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DISSIMULADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * DISTRAIDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * EGOISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ESTOURADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ESTRESSADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * EXIGENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * FALSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * FINGIDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * FRACO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * FRIO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * FRIVOLO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * FUTIL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * GANANCIOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * GROSSEIRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * GROSSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * HIPOCRITA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IGNORANTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPACIENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPERTINENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPETUOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPIEDOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPONDERADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPOSTOR
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPRUDENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IMPULSIVO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INCOMPETENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INCONSTANTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INCONVENIENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INCORRETO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INDECISO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INDECOROSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INDELICADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INDIFERENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INFIEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INFLEXIVEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INJUSTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INSEGURO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INSENSATO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INSINCERO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INSTAVEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INSUPORTAVEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INTERESSEIRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INTOLERANTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INTRANSIGENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * INTROVERTIDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IRRACIONAL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IRRASCIVEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IRREQUIETO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IRRESPONSAVEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * IRRITADICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MALANDRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MALDOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MALICIOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MALVADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MANDAO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MANHOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MAQUIAVELICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MEDROSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MENTIROSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * MESQUINHO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * NARCISISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * NEGLIGENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * NERVOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * NEUROTICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * OBCECADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ODIOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * OPORTUNISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * ORGULHOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PEDANTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PESSIMISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * POSSESSIVO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PRECIPITADO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PRECONCEITUOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PREGUICOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PREPOTENTE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PRESUNCOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * PROBLEMATICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * QUEZILENTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * RANCOROSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * RELAPSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * RIGOROSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * RABUGENTO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * RUDE
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * SARCASTICO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * SEDENTARIO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TEIMOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TIMIDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TIRANO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TRAICOEIRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TRAIDOR
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TRAPACEIRO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TENDENCIOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * TROCISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * VAGABUNDO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * VAIDOSO
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * VULNERAVEL
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * VIGARISTA
+   </pattern><template>Hmm Ainda bem!</template></category>
+   <category><pattern>VOCE NAO * XENOFOBO
+   </pattern><template>Hmm Ainda bem!</template></category>
+  </aiml>
+  

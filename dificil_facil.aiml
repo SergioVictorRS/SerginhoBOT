@@ -1,0 +1,24 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>RESPOSTA0DIFICIL</pattern>
+	<template>
+		<random>
+			<li>Sim, muito kk</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>RESPOSTA0FACIL</pattern>
+	<template>
+		<random>
+			<li>Nao, eh tranquilo</li>
+		</random>
+	</template>
+</category>
+
+<category><pattern>* DIFICIL VIVER *</pattern><template><srai>RESPOSTA0DIFICIL</srai></template></category>
+
+
+<category><pattern>* DIFICIL CONVERSAR *</pattern><template><srai>RESPOSTA0FACIL</srai></template></category>
+</aiml>

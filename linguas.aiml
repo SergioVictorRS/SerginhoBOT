@@ -1,0 +1,36 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>HI</pattern>
+	<template><srai>INGLES</srai></template>
+</category>
+
+<category>
+	<pattern>HI *</pattern>
+	<template><srai>INGLES</srai></template>
+</category>
+
+
+<category>
+	<pattern>HELLO *</pattern>
+	<template><srai>INGLES</srai></template>
+</category>
+
+
+<category>
+	<pattern>HELLO</pattern>
+	<template><srai>INGLES</srai></template>
+</category>
+
+
+<category>
+	<pattern>HOW ARE YOU *</pattern>
+	<template><srai>INGLES</srai></template>
+</category>
+
+
+<category>
+	<pattern>HOW ARE YOU *</pattern>
+	<template><srai>INGLES</srai></template>
+</category>
+
+</aiml>

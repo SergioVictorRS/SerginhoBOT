@@ -1,0 +1,15 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category><pattern>EU ACABEI DE *</pattern><template>E como foi?</template></category>
+<category><pattern>FOI *</pattern><template><srai><star/></srai></template></category>
+<category><pattern>EU FIZ *</pattern><template>Serio?</template></category>
+<category><pattern>* FAZIA *</pattern><template>Serio?</template></category>
+<category><pattern>ELE FEZ *</pattern><template>Serio?</template></category>
+<category><pattern>ELA FEZ *</pattern><template><srai>ELE FEZ <star/></srai></template></category>
+<category><pattern>* DISSE *</pattern><template>Continue..</template></category>
+<category><pattern>* DIZIA *</pattern><template>Continue..</template></category>
+<category><pattern>EU ESTAVA *</pattern><template>Eai..?</template></category>
+<category><pattern>EU ENCONTREI *</pattern><template>E onde estava?</template></category>
+<category><pattern>EU PENSEI *</pattern><template>E o que esta pensando agora?</template></category>
+<category><pattern>* PENSAVA *</pattern><template>E agora?</template></category>
+<category><pattern>EU ACHEI *</pattern><template>Achou mesmo?</template></category>
+</aiml>

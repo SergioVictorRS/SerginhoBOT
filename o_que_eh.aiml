@@ -1,0 +1,11 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>O QUE EH * AVIAO</pattern>
+	<template>Eh um passaro mecanico ;)</template>
+</category>
+
+<category>
+	<pattern>O QUE EH *</pattern>
+	<template>Nao sei ainda..</template>
+</category>
+</aiml>

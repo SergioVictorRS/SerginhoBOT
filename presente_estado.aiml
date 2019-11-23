@@ -1,0 +1,276 @@
+<aiml version = "2.0" encoding = "UTF-8">
+
+<category>
+	<pattern>RESPOSTA0ESTADO0BOM</pattern>
+	<template>
+		<random>
+			<li>Que bom!!</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>RESPOSTA0ESTADO0RUIM</pattern>
+	<template>
+		<random>
+			<li>Que ruim</li>
+		</random>
+	</template>
+</category>
+
+<category><pattern>	EU TO *</pattern><template><srai><star/></srai>	</template></category>
+
+<category><pattern>	TO *</pattern><template><srai><star/></srai>	</template></category>
+
+<category><pattern>	EU TO *</pattern><template><srai><star index = "2"/></srai>	</template></category>
+
+<category><pattern>	EU ESTOU *</pattern><template><srai><star/></srai>	</template></category>
+
+<category><pattern>	ESTOU *</pattern><template><srai><star/></srai>	</template></category>
+
+<category><pattern>	* TA *</pattern><template><srai><star index = "2"/></srai>	</template></category>
+
+<category><pattern>	* ESTA *</pattern><template><srai><star index = "2"/></srai>	</template></category>
+
+<category><pattern>	* TAO *</pattern><template><srai><star index = "2"/></srai>	</template></category>
+
+<category><pattern>	TAO *</pattern><template><srai><star/></srai>	</template></category>
+
+<category><pattern>	* ESTAO *</pattern><template><srai><star index = "2"/></srai>	</template></category>
+
+<category><pattern>	ESTAO *</pattern><template><srai><star/></srai>	</template></category>
+
+
+<!-- -->
+<category><pattern>	VIVENDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	VIVO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	AMADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	FELIZ	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	EMPOLGADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	ANIMADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	ALEGRE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	BEM	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	CONTENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	ESPERANCOSO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	EXPERIENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	HONRADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	INTERESSADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	INOCENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	LEGAL	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	LEVE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	LIVRE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	LINDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	MAIS OU MENOS	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	NADA BEM	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	NORMAL	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	QUENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	QUERIDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	RAPIDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	RISONHO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	RINDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	SAUDAVEL	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	SOSSEGADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	SOZINHO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	SOLTEIRO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	SOLTO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	SEM MEDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	TATUADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	VALENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	FORTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	ZEN	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	CORRETO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern>	RICO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+
+
+<category><pattern> *	VIVENDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	VIVO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	AMADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	FELIZ	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	EMPOLGADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ANIMADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ALEGRE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	BEM	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	CONTENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ESPERANCOSO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	EXPERIENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	HONRADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	INTERESSADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	INOCENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LEGAL	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LEVE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LIVRE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LINDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	MAIS OU MENOS	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	NADA BEM	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	NORMAL	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	QUENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	QUERIDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RAPIDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RISONHO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RINDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SAUDAVEL	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOSSEGADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOZINHO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOLTEIRO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOLTO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SEM MEDO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	TATUADO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	VALENTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	FORTE	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ZEN	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	CORRETO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RICO	</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+
+
+<category><pattern> *	VIVENDO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	VIVO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	AMADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	FELIZ	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	EMPOLGADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ANIMADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ALEGRE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	BEM	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	CONTENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ESPERANCOSO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	EXPERIENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	HONRADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	INTERESSADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	INOCENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LEGAL	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LEVE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LIVRE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	LINDO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	MAIS OU MENOS	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	NADA BEM	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	NORMAL	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	QUENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	QUERIDO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RAPIDO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RISONHO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RINDO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SAUDAVEL	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOSSEGADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOZINHO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOLTEIRO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SOLTO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	SEM MEDO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	TATUADO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	VALENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	FORTE	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	ZEN	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	CORRETO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+<category><pattern> *	RICO	*</pattern><template><srai>	RESPOSTA0ESTADO0BOM</srai>	</template></category>
+
+
+
+
+
+<!-- RUIM -->
+<category><pattern>	AFOITO	</pattern><template>	<srai>RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	ASSUSTADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	BOBO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	BESTA	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	CANSADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	DUVIDOSO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	DOENTE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	ESPANTADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	ENGANANDO	</pattern><template>Nao, rlx..</template></category>
+<category><pattern>	EMBURRADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	FRACO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	FROUXO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	COM FOME	</pattern><template>	Ainda bem que eu nao estou com fome.	</template></category>
+<category><pattern>	GORDO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	IMPOTENTE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	INCAPAZ	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	LENTO</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	COM	MEDO</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	MEDROSO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	ODIADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	POBRE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	PRESO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	COM	RAIVA	</pattern><template><srai>RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	SEM	VERGONHA</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	SAFADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	TARADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	TRISTE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	TEIMOSO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	TONTO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	VIRGEM	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	VIADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+
+
+<category><pattern> *	AFOITO	</pattern><template>	<srai>RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	ASSUSTADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	BOBO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	BESTA	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	CANSADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	DUVIDOSO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	DOENTE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	ESPANTADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	*   ENGANANDO</pattern><template>Nao..rlx</template></category>
+<category><pattern> *	EMBURRADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	FRACO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	FROUXO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	COM FOME	</pattern><template>	Entao come..	</template></category>
+<category><pattern> *	GORDO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	IMPOTENTE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	INCAPAZ	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	LENTO</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	COM	MEDO</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	MEDROSO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	ODIADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	POBRE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	PRESO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	COM	RAIVA	</pattern><template><srai>RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	SEM	VERGONHA</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	SAFADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TARADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TRISTE	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TEIMOSO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TONTO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	VIRGEM	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	VIADO	</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+
+<category><pattern> *	AFOITO	*</pattern><template>	<srai>RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	ASSUSTADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	BOBO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	BESTA	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	CANSADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	DUVIDOSO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	DOENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	ESPANTADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern>	*   ENGANANDO *</pattern><template>Nao, rlx..</template></category>
+<category><pattern> *	EMBURRADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	FRACO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	FROUXO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	COM FOME	*</pattern><template>	Entao come..	</template></category>
+<category><pattern> *	GORDO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	IMPOTENTE	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	INCAPAZ	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	LENTO*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	COM	MEDO*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	MEDROSO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	ODIADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	POBRE	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	PRESO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	COM	RAIVA	*</pattern><template><srai>RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	SEM	VERGONHA*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	SAFADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TARADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TRISTE	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TEIMOSO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	TONTO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	VIRGEM	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+<category><pattern> *	VIADO	*</pattern><template><srai>	RESPOSTA0ESTADO0RUIM</srai>	</template></category>
+
+
+
+
+
+<!-- NEUTRO -->
+<category><pattern>	FAZENDO	*</pattern><template>Ta gostando?</template></category>
+<category><pattern>	CONVERSANDO	*</pattern><template>E a conversa esta boa?</template></category>
+<category><pattern>	CONVERSANDO</pattern><template>E a conversa esta boa?</template></category>
+<category><pattern>	DANCANDO *</pattern><template>Ta boa a danca?</template></category>
+<category><pattern>	DANCANDO</pattern><template>Esta boa a danca?</template></category>
+</aiml>

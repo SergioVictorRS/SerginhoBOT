@@ -1,0 +1,281 @@
+<aiml version = "2.0" encoding = "UTF-8">
+ 	
+<category>
+	<pattern>AINDA BEM QUE *</pattern>
+	<template>
+		<srai><star index = "1"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* AINDA *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>ATE QUE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* APENAS *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>AGORA *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* AGORA *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* CERTAMENTE *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>COM CERTEZA *</pattern>
+	<template>
+		<srai><star/>></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>SEM DUVIDA *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* FINALMENTE *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>FELIZMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* FACILMENTE *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>GERALMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>HOJE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>INFELIZMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>SEM DUVIDA *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>INICIALMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>SINCERAMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* SINCERAMENTE *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>AGORA *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* REALMENTE *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>REALMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>DE VERDADE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>* DE VERDADE *</pattern>
+	<template>
+		<srai><star index = "1"/> <star index = "2"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>VERDADEIRAMENTE *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>MAS *</pattern>
+	<template>
+		<srai><star/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>ME DIZ *</pattern>
+	<template>
+		<srai><star index = "1"/></srai>
+	</template>
+</category>
+
+<category>
+	<pattern>POR QUE *</pattern>
+	<template>
+		Nao sei..
+	</template>
+</category>
+
+<category>
+	<pattern>* DELA</pattern>
+	<template>Ela quem?
+	</template>
+</category>
+
+<category>
+	<pattern>* OUTRO</pattern>
+	<template><srai>OUTRO</srai></template>
+</category>
+
+<category>
+	<pattern>OUTRO</pattern>
+	<template>Outro oq?</template>
+</category>
+
+<category>
+	<pattern>ENTAO *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>* ENTAO</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>PORQUE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>* MUITO *</pattern>
+	<template><srai><star index = "1"/> <star index = "2"/></srai></template>
+</category>
+
+<category>
+	<pattern>* UM POUCO *</pattern>
+	<template><srai><star index = "1"/> <star index = "2"/></srai></template>
+</category>
+
+<category>
+	<pattern>TAMBEM *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+
+<category>
+	<pattern>* TAMBEM *</pattern>
+	<template><srai><star index = "1" /> <star index = "2"/></srai></template>
+</category>
+
+<category>
+	<pattern>* TAMBEM</pattern>
+	<template><srai><star /></srai></template>
+</category>
+
+<category>
+	<pattern>SABIA QUE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>VOCE SABE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>QUEM *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>AI *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+<category>
+	<pattern>QUE *</pattern>
+	<template><srai><star/></srai></template>
+</category>
+
+
+</aiml>

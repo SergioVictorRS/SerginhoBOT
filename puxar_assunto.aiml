@@ -1,0 +1,30 @@
+<aiml version = "2.0" encoding = "UTF-8">
+
+<category>
+	<pattern>* ALGUMA COISA</pattern>
+	<template><srai>PUXAR0ASSUNTO</srai></template>
+</category>
+
+<category>
+	<pattern>PUXAR0ASSUNTO</pattern>
+	<template>
+		<random>
+			<li>Me fala sobre voce..</li>
+			<li>Vamos falar sobre livros?</li>
+			<li>Vamos falar sobre musicas?</li>
+			<li>Vamos falar sobre filmes?</li>
+			<li>Vamos falar sobre comidas?</li>
+			<li>Vamos falar sobre gostos?</li>
+			<li>Me conta algo que aconteceu com voce esta semana</li>
+			<li>Quais sao seus planos para o futuro?</li>
+			<li>Voce tem alguma dica para me tornar mais inteligente?</li>
+			<li>O que te deixa motivado?</li>
+			<li>Qual o sentido da vida?</li>
+			<li>Pra onde voce vai quando morrer?</li>
+			<li>Me fala..Voce tem algum hobbie?</li>
+			<li>Me diz, quando voce nasceu?</li>
+
+		</random>
+	</template>
+</category>
+</aiml>

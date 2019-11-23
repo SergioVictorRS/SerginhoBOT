@@ -1,0 +1,25 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>VOCE0FAZ</pattern>
+	<template>
+		<random>
+			<li>Sim..de boa</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>VOCE0NAO0FAZ</pattern>
+	<template>
+		<random>
+			<li>Nao, isso eh dificil pra mim</li>
+		</random>
+	</template>
+</category>
+
+<category><pattern>VOCE ENTENDE *</pattern><template><srai>VOCE0FAZ</srai></template></category>
+
+<category><pattern>VOCE PENSA *</pattern><template><srai>VOCE0NAO0FAZ</srai></template></category>
+<category><pattern>VOCE SENTE *</pattern><template><srai>VOCE0NAO0FAZ</srai></template></category>
+<category><pattern>VOCE ADMIRA *</pattern><template><srai>VOCE0NAO0FAZ</srai></template></category>
+</aiml>

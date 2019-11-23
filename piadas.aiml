@@ -1,0 +1,134 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>PIADA</pattern>
+	<template>
+		<random>
+<li>	ONDE O BATMAN CONHECEU O ROBIN?	
+	no bat-papo...	</li>
+<li>	O QUE FAZ O BATMAN PARA ABRIR A BAT-CAVERNA?	
+	ele bat-palma...	</li>
+<li>	A VACA E O BOI FORAM PARA UM HOTEL . QUEM PAGOU?	
+	eles fizeram uma vaquinha...	</li>
+<li>	O QUE O CAVALO FAZIA NO ORELHÃO?	
+	passava trote...	</li>
+<li>	EU TENHO CINCO PEIXES,MAS DOIS MORRERAM AFOGADOS.QUANTOS SOBRARAM?	
+	peixe não morre afogado...	</li>
+<li>	UM PATO DEIXOU UM OVO PARA CHOCAR NO MEIO DE UMA ESTRADA.DE QUEM ERA O OVO:DAS DUAS CIDADES (DIVIDIDAS PELA ESTRADA),DE UMA DELAS (CIDADES),DA ESTRADA OU DO PATO?	
+	ninguém.pato não choca ovo...	</li>
+<li>	QUANTAS PATAS TEM UM PATO FIEL?	
+	três.duas para caminhar e uma para namorar...	</li>
+<li>	COMO SE TEM UM FILHO VIRTUAL?	
+	com um computador...	</li>
+<li>	O QUE O TAPETE FALOU PARA A MESA?	
+	fecha as pernas que eu estou vendo tudo , tudo...	</li>
+<li>	OQUE ENTRA NA MULHER MOLE,E DEPOIS,QUE SECA, FICA DURO?	
+	o esmalte...	</li>
+<li>	QUANDO 2+1 DARÁ 21?	
+	nunca...	</li>
+<li>	QUANDO 2+2 DARÁ 5 ?	
+	quando a conta estiver errada...	</li>
+<li>	QUEM É A MÃE DA HORTA E O REI DA GELADEIRA?	
+	a mãe da horta :mãelancia...o rei da geladeira:reipolho...	</li>
+<li>	QUE COR ERA FLOR,QUANDO A ABELHA LEVOU UM CHOQUE?	
+	rosa-choque...	</li>
+<li>	SE CÃO TIVESSE RELIGIÃO QUAL SERIA?	
+	cãodomblé...	</li>
+<li>	O TICO E O TECO FORAM AO CINEMA QUEM PAGOU A ENTRADA?	
+	o teco,porque o tico estava duro...	</li>
+<li>	COMO SE DIZ "TOP LESS" EM JAPONÊS?	
+	xem-xu-tiã...	</li>
+<li>	O QUE O NÚMERO 0 DISSE PARA O 8?	
+	que 5 bonito...	</li>
+<li>	O QUE UMA MULHER DE 80 À 95 ANOS (GORDA) TEM ENTRE OS SEIOS QUE UMA DE 20 NÃO TEM ?	
+	o umbigo...	</li>
+<li>	QUAL O DOCE PREFERIDO DOS NAMORADOS?	
+	beijinhos e suspiros...	</li>
+<li>	ONDE É QUE AGENTE SÓ ENTRA SE TIVER TELEFONE?	
+	na lista telefônica...	</li>
+<li>	O QUE É QUE SAI DE CASA,BATE COM A CABEÇA NA PAREDE E MORRE QUEIMADO?	
+	o fósforo...	</li>
+<li>	PORQUE OS ROBÔS NÃO TEM MEDO?	
+	porque eles tem nervos de aço...	</li>
+<li>	QUAL A DOENÇA QUE TODO CARRO TEM?	
+	pneumonia...	</li>
+<li>	QUATRO PEDRAS DE 1 QUILO DENTRO DA ÁGUA CAÍRAM:DUAS DELAS FORAM AO FUNDO E DUAS SUBIRAM PORQUE?	
+	duas eram gelo...	</li>
+<li>	ELE SERVE PARA FEZER TIJOLO E ELA PARA FAZER GINÁSTICA , QUEM SÃO?	
+	o barro e a barra...	</li>
+<li>	O QUE O ANIMAL GRITA, QUANDO ABRAÇA UM PORCO ESPINHO?	
+	ai,ai,ai,ui,ui...	</li>
+<li>	COMO SE COMPRIMENTO UM MONSTRO DE DUAS CABEÇAS?	
+	oi,oi...	</li>
+<li>	QUEM É O TIO DA CONSTRUÇÃO?	
+	o tiojolo (tijolo)...	</li>
+<li>	QUEM É O PAI DO CARRO?	
+	o painel (painel)...	</li>
+<li>	QUEM É O VÔ DO CARRO?	
+	o vôlante (direção)...	</li>
+<li>	QUEM É O TIO DO BARCO?	
+	o tiomão (direção)...	</li>
+<li>	QUAL É A BEBIDA DOS GAYS?	
+	gaytorade (energético)...	</li>
+<li>	PORQUE A ÁGUA FOI PRESA?	
+	porque ela matou a sede...	</li>
+<li>	QUAL A DIFERENÇA ENTRE A BOTA E A CALÇA?	
+	a bota você calça e a calça você bota...	</li>
+<li>	QUAL O CÚMULO DA RAVOLTA?	
+	morar sozinho e fugir de casa...	</li>
+<li>	QUAL O CÚMULO DA INOCÊNCIA?	
+	é a menina espremer o bico dos seios pensando que é espinha...	</li>
+<li>	O QUE É O QUE É,	
+	ANDA PARA TRÁZ , MUDA DE COR, E COME CRIANCINHAS?	
+	michael jackson...	</li>
+<li>	OQUE UM BOTIJÃO FALOU PARA O OUTRO , QUANDO ESTAVAM EM CIMA DE UM CAMINHÃO?	
+	vamos vazar?...	</li>
+<li>	O QUE PODE TER MAIS DE 36 ACENTOS?	
+	o ônibos...	</li>
+<li>	O QUE A BOSTA FALOU PARA O PEIDO?	
+	vai na frente que você tem buzina...	</li>
+<li>	COMO SE ESCREVA DIA DO PEIDO EM INGLÊS?	
+	peiday...	</li>
+<li>	QUAL A MAIOR GALINHA DO MUNDO	
+	Bin Laden porque chocou o Brasil...	</li>
+<li>	O QUE O MONHôCO FALOU PARA A MINHOCA?	
+	você minhoquece!!!...	</li>
+<li>	PORQUE O PEIXE-PREGO TEM MEDO DE IR AO FUNDO DO AMR?	
+	porque ele tem medo do tubarão-martelo...	</li>
+<li>	O QUE É CHEIRO VERDE?	
+	o peido do incrível Hulck misturado co o do Shreek...	</li>
+<li>	COMO SE FAZ PARA DEIXAR UMA LOURA LOUCA?	
+	mande ela ir para o canto da sala em uma sala redonda...	</li>
+<li>	QUAL É O FIM DA PICADA?	
+	quando o mosquito vai embora...	</li>
+<li>	OQUE É UM PONTO VERMELHO NA GRAMA?	
+	uma formiga menstruada...	</li>
+<li>	O QUE É UM PONTO AZUL NA GRAMA?	
+	uma formiga de calça jeans...	</li>
+<li>	QUANTOS OVOS O GIGANTE PRECISA COMER PARA SAIR DE JEJUM?	
+	um ovo . porque depois não ficará em jejum (comeu alguma coisa)...	</li>
+<li>	EM UM MURO HAVIA 5 MACACOS DE IMITAÇÃO.UM DELES PULOU , QUANTOS SOBRARAM?	
+	nenhum ,os outros imitaram o primeiro , afinal eram macacos de imitação...	</li>
+<li>	PARA QUE SERVE O ÓCULOS VERDDE?	
+	para verde perto...	</li>
+<li>	PORQUE A FANTA E A COCA-COLA SÃO GRANDES AMIGAS?	
+	porque quando a Fanta quebra , a Coca-Cola...	</li>
+<li>	VOCÊ SABE A DIFERENÇA ENRE LAGOA E PADARIA?	
+	que na lagoa há sapinhos(assa pinhos)e na padaria assa pão...	</li>
+<li>	VOCÊ CONHECE A PIADA DO FOTÓGRAFO?	
+	ainda não foi revelada.	</li>
+
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>* PIADA</pattern>
+	<template><srai>PIADA</srai></template>
+</category>
+
+<category>
+	<pattern>* PIADA *</pattern>
+	<template><srai>PIADA</srai></template>
+</category>
+
+</aiml>
+

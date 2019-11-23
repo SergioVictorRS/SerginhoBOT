@@ -1,0 +1,62 @@
+<aiml version = "2.0" encoding = "UTF-8">
+<category>
+	<pattern>NINGUEM *</pattern>
+	<template>Ninguem?</template>
+</category>
+
+
+<category>
+	<pattern>NENHUM *</pattern>
+	<template>Tem certeza?</template>
+</category>
+
+
+<category>
+	<pattern>NENHUMA *</pattern>
+	<template><srai>NENHUM <star/></srai></template>
+</category>
+
+<category>
+	<pattern>TODO *</pattern>
+	<template>Nao gosto de generalizacoes..</template>
+</category>
+
+<category>
+	<pattern>TODA *</pattern>
+	<template><srai>TODO <star/></srai></template>
+</category>
+
+<category>
+	<pattern>TODOS OS *</pattern>
+	<template><srai>TODO <star/></srai></template>
+</category>
+
+
+<category>
+	<pattern>TODAS *</pattern>
+	<template><srai>TODO <star/></srai></template>
+</category>
+
+<category>
+	<pattern>ALGUEM *</pattern>
+	<template>Quem? Voce sabe?</template>
+</category>
+
+<category>
+	<pattern>* NADA</pattern>
+	<template>Duvido..</template>
+</category>
+
+
+<category>
+	<pattern>* TUDO</pattern>
+	<template><srai>NADA</srai></template>
+</category>
+
+
+<category>
+	<pattern>NADA</pattern>
+	<template>Nada..</template>
+</category>
+
+</aiml>
